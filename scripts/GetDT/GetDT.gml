@@ -1,0 +1,1 @@
+return( delta_time / 30000.0 )
