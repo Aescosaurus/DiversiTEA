@@ -20,19 +20,26 @@ else if( xMove < 0.0 ) image_xscale = -1.0
 xMove = xMove * moveSpeed * dt
 yMove = yMove * moveSpeed * dt
 
+// These guys tell -1 to 1 which direction you go in
+var xDir = ( ( xMove != 0.0 ) ? xMove / abs( xMove ) : 0.0 )
+var yDir = ( ( yMove != 0.0 ) ? yMove / abs( yMove ) : 1.0 )
+
 if( jumping ) y -= jumpPower * dt
 
 grav += gravAcc * dt
 yMove += grav * dt
 if( yMove > maxFallSpeed ) yMove = maxFallSpeed
 
-if( place_free( x + xMove,y ) ) x += xMove
-if( place_free( x,y + yMove ) ) y += yMove
+// if( place_free( x + xMove,y ) ) x += xMove
+if( tilemap_get_at_pixel( tileLayer,x + ( halfWidth * xDir ) + xMove,y ) <= 0 ) x += xMove
+// if( place_free( x,y + yMove ) ) y += yMove
+if( tilemap_get_at_pixel( tileLayer,x,y + ( halfHeight * yDir ) + yMove ) <= 0 ) y += yMove
 else
 {
 	// Smaller means more accurate and also more laggy.
 	var minMoveAmount = 0.1
-	while( place_free( x,y + minMoveAmount ) ) y += minMoveAmount
+	// while( place_free( x,y + minMoveAmount ) ) y += minMoveAmount
+	while( tilemap_get_at_pixel( tileLayer,x,y + ( halfHeight * yDir ) + minMoveAmount ) <= 0 ) y += minMoveAmount
 	
 	grav = 0.0
 	jumping = false

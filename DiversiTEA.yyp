@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "3968d26d-0106-43bd-902c-de1897ed7665",
+            "Value": {
+                "id": "310d430d-c9fd-430f-9df5-a2e10038068c",
+                "resourcePath": "sprites\\GrassGroundSpr\\GrassGroundSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4026d2e7-fabe-474e-803e-82d6b36a1376",
             "Value": {
                 "id": "50a201c1-250a-418b-83ca-5c8b0467d080",
@@ -212,6 +220,14 @@
                 "id": "7be5af08-a89b-4819-a465-b85147a94ffc",
                 "resourcePath": "views\\b232eba4-0c12-4f32-81f3-b9722fad4b10.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b6c67886-c01c-4994-b707-e3b5f911ca58",
+            "Value": {
+                "id": "175d1d7c-81b5-4a42-a455-961ceddc80fe",
+                "resourcePath": "tilesets\\GrassGroundTiles\\GrassGroundTiles.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
