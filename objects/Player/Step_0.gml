@@ -17,18 +17,19 @@ if( keyboard_check( ord( "D" ) ) ) ++xMove
 if( xMove > 0.0 ) image_xscale = 1.0
 else if( xMove < 0.0 ) image_xscale = -1.0
 
+// Use these for all movement, then apply to x and y
 xMove = xMove * moveSpeed * dt
 yMove = yMove * moveSpeed * dt
 
-// These guys tell -1 to 1 which direction you go in
-var xDir = ( ( xMove != 0.0 ) ? xMove / abs( xMove ) : 0.0 )
-var yDir = ( ( yMove != 0.0 ) ? yMove / abs( yMove ) : 1.0 )
-
-if( jumping ) y -= jumpPower * dt
+if( jumping ) yMove -= jumpPower * dt
 
 grav += gravAcc * dt
 yMove += grav * dt
 if( yMove > maxFallSpeed ) yMove = maxFallSpeed
+
+// These guys tell -1 to 1 which direction you go in
+var xDir = ( ( xMove != 0.0 ) ? xMove / abs( xMove ) : 0.0 )
+var yDir = ( ( yMove != 0.0 ) ? yMove / abs( yMove ) : 0.0 )
 
 // if( place_free( x + xMove,y ) ) x += xMove
 if( tilemap_get_at_pixel( tileLayer,x + ( halfWidth * xDir ) + xMove,y ) <= 0 ) x += xMove
@@ -37,7 +38,7 @@ if( tilemap_get_at_pixel( tileLayer,x,y + ( halfHeight * yDir ) + yMove ) <= 0 )
 else
 {
 	// Smaller means more accurate and also more laggy.
-	var minMoveAmount = 0.1
+	var minMoveAmount = 0.1 * yDir
 	// while( place_free( x,y + minMoveAmount ) ) y += minMoveAmount
 	while( tilemap_get_at_pixel( tileLayer,x,y + ( halfHeight * yDir ) + minMoveAmount ) <= 0 ) y += minMoveAmount
 	

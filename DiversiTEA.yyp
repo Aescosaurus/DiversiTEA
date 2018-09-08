@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1fd0247d-6340-497b-ad7e-f3a8c2ca2a03",
+            "Value": {
+                "id": "cb07f938-3614-4454-a420-e1a1bc097596",
+                "resourcePath": "sprites\\EvilTreeSpr\\EvilTreeSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "25ef6488-09fd-4813-89a4-001bb43ac6d3",
             "Value": {
                 "id": "e63495bc-2fa8-4845-9146-ac715f50e606",
@@ -199,11 +207,27 @@
             }
         },
         {
+            "Key": "97315675-2525-41a6-a396-b6ff601c6728",
+            "Value": {
+                "id": "7461b796-6d01-47cc-8464-c37cb4225252",
+                "resourcePath": "sprites\\EvilRockSpr\\EvilRockSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9bccedff-e7e9-47ef-86ec-b96b3c11be75",
             "Value": {
                 "id": "52a2a5ac-bc05-455b-ad02-539e3dbf168b",
                 "resourcePath": "views\\9bccedff-e7e9-47ef-86ec-b96b3c11be75.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a07a1d17-d633-4bcd-a968-054dd6c6583f",
+            "Value": {
+                "id": "3d9e73d8-66de-488a-aa41-4065b44a361c",
+                "resourcePath": "objects\\EvilTree\\EvilTree.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -244,6 +268,14 @@
                 "id": "98fdc078-90f1-443d-9834-8a58450d1ff2",
                 "resourcePath": "views\\ce70b098-6193-41c9-90dc-8fe7845d96af.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d7e3c187-d89f-47db-b523-c671d5130daf",
+            "Value": {
+                "id": "29b3811a-6ad9-49b5-8d23-bb5394a49f4d",
+                "resourcePath": "objects\\EvilRock\\EvilRock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
