@@ -57,6 +57,8 @@ if( keyboard_check( ord( "J" ) ) && ( shotTimer >= refireTime ) )
 	var bull = instance_create_layer( x,y,"ProjectilesLayer",Bullet )
 	bull.dir = image_xscale
 	bull.image_xscale = image_xscale
+	
+	audio_play_sound( Ouch1Sound,1,false )
 }
 
 // TODO: Make camera move sexily in code :)

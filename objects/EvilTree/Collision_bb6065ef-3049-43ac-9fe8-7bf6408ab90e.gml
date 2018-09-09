@@ -1,0 +1,3 @@
+/// @description Hurt player
+
+DamagePlayer()

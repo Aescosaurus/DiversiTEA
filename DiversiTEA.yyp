@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "155a32fa-e23a-42d8-97cb-e661ad56e0f7",
+            "Value": {
+                "id": "72b75b6b-0e3c-4d37-add8-ab384d40d771",
+                "resourcePath": "sprites\\RedSpiritSpr\\RedSpiritSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1fd0247d-6340-497b-ad7e-f3a8c2ca2a03",
             "Value": {
                 "id": "cb07f938-3614-4454-a420-e1a1bc097596",
@@ -100,6 +108,22 @@
                 "id": "94cfa8a8-5633-4e62-8c26-92ba22495292",
                 "resourcePath": "views\\2816b6f3-2bcc-43d1-8b09-3d41c5a64cd7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2a50f461-a3c0-4a09-adb6-c410bc1b5948",
+            "Value": {
+                "id": "65b3e4a8-4f70-442c-aabf-20b882c1a17d",
+                "resourcePath": "objects\\RedSpirit\\RedSpirit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2ae0f56f-f879-4731-a760-88e70f671ed5",
+            "Value": {
+                "id": "e8ab84f9-caf0-4933-be47-5275b8a57270",
+                "resourcePath": "sounds\\Ouch1Sound\\Ouch1Sound.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -183,6 +207,14 @@
             }
         },
         {
+            "Key": "6f141827-4a84-4f93-bb78-cdd766edc940",
+            "Value": {
+                "id": "a63f5f1f-fb68-4a85-9d94-63c4c6cbe0a9",
+                "resourcePath": "shaders\\FlashWhiteShader\\FlashWhiteShader.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "76dcba75-e59f-4774-ae38-f803400a43b4",
             "Value": {
                 "id": "022c0b73-8f6b-468f-acb6-4ffd1c33ec37",
@@ -220,6 +252,14 @@
                 "id": "13217434-a521-4617-a196-51c4f744b6f6",
                 "resourcePath": "objects\\DoorQuit\\DoorQuit.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "879148ca-4655-4f4b-b9af-661bf7f9f08a",
+            "Value": {
+                "id": "97896ee3-7255-4977-aea2-ae82c158b1fb",
+                "resourcePath": "scripts\\DamagePlayer\\DamagePlayer.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -391,6 +431,14 @@
             }
         },
         {
+            "Key": "e799ef87-0498-4d54-9891-65d917ca51d9",
+            "Value": {
+                "id": "e14746c4-6d9b-4280-99d1-fc2441dfd522",
+                "resourcePath": "scripts\\GetLengthSq\\GetLengthSq.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e7ad8469-6297-4e62-b12a-a33cb325eb89",
             "Value": {
                 "id": "fc8e1a2a-58cf-40b2-a113-ad0e00463d6c",
@@ -424,7 +472,9 @@
         }
     ],
     "script_order": [
-        "90103686-a3fd-404d-aca1-8063e4661222"
+        "90103686-a3fd-404d-aca1-8063e4661222",
+        "879148ca-4655-4f4b-b9af-661bf7f9f08a",
+        "e799ef87-0498-4d54-9891-65d917ca51d9"
     ],
     "tutorial": ""
 }

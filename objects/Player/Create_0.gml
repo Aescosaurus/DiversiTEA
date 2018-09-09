@@ -1,7 +1,7 @@
 /// @description init vars pls pls
 
+gravAcc = 0.26 // dont change pls, I use this everywhere
 moveSpeed = 4.1
-gravAcc = 0.26
 grav = 0.0
 maxFallSpeed = 5.1
 jumping = false
