@@ -1,8 +1,8 @@
 {
-    "id": "02c81647-f5d6-4917-99ce-83a914d0df88",
+    "id": "6a27bf2d-6294-48a3-93eb-e89331ee68be",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "FloorCollider",
+    "name": "ActivateTut",
     "eventList": [
         
     ],
@@ -23,7 +23,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "2c4e1f8b-aade-4fb5-b65e-7d91e04a81bd",
+    "solid": false,
+    "spriteId": "11610141-2df6-45e0-8ea1-fd5f69eeccfb",
     "visible": true
 }
