@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "03ed365b-1a80-4734-b009-e0c8bc433758",
+            "Value": {
+                "id": "554ea649-e9bb-482c-86c8-01d7d93f1aeb",
+                "resourcePath": "sprites\\Help3Spr\\Help3Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0be4ddb1-3129-4b42-92f3-47f1fcbf81f0",
             "Value": {
                 "id": "38dcd9ce-ba53-42c9-b64f-46053e648452",
@@ -83,6 +91,14 @@
             "Value": {
                 "id": "72b75b6b-0e3c-4d37-add8-ab384d40d771",
                 "resourcePath": "sprites\\RedSpiritSpr\\RedSpiritSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "19ff1780-81e5-4125-9a95-8ddff393a403",
+            "Value": {
+                "id": "103b7d6d-64f9-47b5-b8d0-5e6914f200f3",
+                "resourcePath": "sprites\\Person1\\Person1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -151,11 +167,27 @@
             }
         },
         {
+            "Key": "3ce5df54-42c8-496e-832d-64c5d12e1e6e",
+            "Value": {
+                "id": "1953a68e-84a7-4f21-83fa-f6ddbdc2b91f",
+                "resourcePath": "rooms\\Storyline2\\Storyline2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4026d2e7-fabe-474e-803e-82d6b36a1376",
             "Value": {
                 "id": "50a201c1-250a-418b-83ca-5c8b0467d080",
                 "resourcePath": "views\\4026d2e7-fabe-474e-803e-82d6b36a1376.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "451a265c-fcd4-4b52-9208-08affa9ae7c7",
+            "Value": {
+                "id": "5815a50c-b900-40d8-add6-e56da2ef7a98",
+                "resourcePath": "sprites\\Help2Spr\\Help2Spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -199,11 +231,35 @@
             }
         },
         {
+            "Key": "674563a7-d3b7-47aa-955b-73e4c71afc2c",
+            "Value": {
+                "id": "2d20203d-df51-4375-8e85-ccc85414094b",
+                "resourcePath": "sprites\\Help4Spr\\Help4Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6a27bf2d-6294-48a3-93eb-e89331ee68be",
             "Value": {
                 "id": "ccf31786-8121-46be-94ee-c9e8faad1cb5",
                 "resourcePath": "objects\\ActivateTut\\ActivateTut.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6d194672-a12d-400f-83fc-a6545935acb9",
+            "Value": {
+                "id": "b38d2ebf-481f-499e-b0e8-d17c575234e2",
+                "resourcePath": "sprites\\Help0Spr\\Help0Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6dc0cf55-913c-4348-b55a-e6340f20a0cb",
+            "Value": {
+                "id": "5f03171f-ae0a-44ff-aed0-197ac5aa452e",
+                "resourcePath": "rooms\\Storyline1\\Storyline1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -359,6 +415,14 @@
             }
         },
         {
+            "Key": "a932c2fd-a9df-427f-85d7-80d673b3e51d",
+            "Value": {
+                "id": "538ab785-5a86-46e1-8f58-572f8b1e26aa",
+                "resourcePath": "sprites\\Help1Spr\\Help1Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ae6efcd5-380c-43bd-887c-71ad67903985",
             "Value": {
                 "id": "a83c3074-dd06-458c-8627-0d37f428bcac",
@@ -375,11 +439,35 @@
             }
         },
         {
+            "Key": "b4406508-3c4f-4f04-8ada-abe295859a54",
+            "Value": {
+                "id": "c5a5da65-3d86-4adc-94c6-0b574aeee4a3",
+                "resourcePath": "sprites\\TeaLeafSpr\\TeaLeafSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b6c67886-c01c-4994-b707-e3b5f911ca58",
             "Value": {
                 "id": "175d1d7c-81b5-4a42-a455-961ceddc80fe",
                 "resourcePath": "tilesets\\GrassGroundTiles\\GrassGroundTiles.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "b93a39a0-6f47-4980-88ba-a9b755828c14",
+            "Value": {
+                "id": "89408b63-aa61-4933-950f-9c726dd6c95a",
+                "resourcePath": "objects\\TeaLeaf\\TeaLeaf.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b98844a4-ae08-4f2e-a4cf-17c4930ea294",
+            "Value": {
+                "id": "d137a845-7e63-46de-9125-d9053276333a",
+                "resourcePath": "sprites\\TeaMsg1Spr\\TeaMsg1Spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -420,6 +508,22 @@
                 "id": "29b3811a-6ad9-49b5-8d23-bb5394a49f4d",
                 "resourcePath": "objects\\EvilRock\\EvilRock.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d7f228c0-1a02-46ab-9a02-f64358ec1c2f",
+            "Value": {
+                "id": "2231c12a-eb2d-48f5-9787-81cf7c1b38c2",
+                "resourcePath": "sprites\\TeaMsg2Spr\\TeaMsg2Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e5477c4a-519c-41db-b7f8-612a30d77873",
+            "Value": {
+                "id": "542fab94-af30-454e-ae6d-c41a76d14f39",
+                "resourcePath": "sprites\\Help5Spr\\Help5Spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

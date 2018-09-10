@@ -1,4 +1,4 @@
-/// @description jump towards player
+/// @description walk towards player
 
 var dt = GetDT()
 
@@ -14,15 +14,17 @@ if( activated )
 	var xMove = ( diff / abs( diff ) ) * moveSpeed * dt
 	var yMove = 0.0
 	
-	if( random_range( 0,1000 ) > 985 ) jumping = true;
-	
-	if( jumping ) yMove -= jumpPower * dt
+	// disabled jumping for now :/
+	// if( random_range( 0,1000 ) > 985 ) jumping = true;
+	// 
+	// if( jumping ) yMove -= jumpPower * dt
 	
 	grav += gravAcc * dt
 	yMove += grav * dt
 	
 	var xDir = ( ( xMove != 0.0 ) ? xMove / abs( xMove ) : 0.0 )
 	var yDir = ( ( yMove != 0.0 ) ? yMove / abs( yMove ) : 0.0 )
+	image_xscale = ( ( xDir != 0.0 ) ? xDir : image_xscale )
 	
 	if( tilemap_get_at_pixel( tileLayer,x + ( halfWidth * xDir ) + xMove,y ) <= 0 ) x += xMove
 	if( tilemap_get_at_pixel( tileLayer,x,y + ( halfHeight * yDir ) + yMove ) <= 0 ) y += yMove

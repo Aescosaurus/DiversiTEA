@@ -12,5 +12,5 @@ touchingPlayer = true
 
 if( keyboard_check( ord( "K" ) ) )
 {
-	room_goto( GrassPlanet )
+	room_goto( Storyline1 )
 }

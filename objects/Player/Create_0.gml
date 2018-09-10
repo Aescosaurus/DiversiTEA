@@ -3,7 +3,7 @@
 gravAcc = 0.26 // dont change pls, I use this everywhere
 moveSpeed = 4.1
 grav = 0.0
-maxFallSpeed = 5.1
+maxFallSpeed = 2.6
 jumping = false
 jumpPower = 4.6
 refireTime = 0.178 * 60.0
