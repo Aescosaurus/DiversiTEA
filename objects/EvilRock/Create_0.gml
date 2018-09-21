@@ -1,5 +1,7 @@
 /// @description init vars
 
+// MAKE SURE YOU HAVE TO KILL THIS GUY BEFORE PROGRESSING
+
 hp = 3
 flashDuration = 0.13 * 60.0
 flashTimer = 0.0

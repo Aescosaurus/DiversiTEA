@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "05f0dc27-7425-4ee4-9036-d4e466e074b3",
+            "Value": {
+                "id": "9fa5a44d-5d2b-4166-ae8b-31d29a38a7eb",
+                "resourcePath": "sprites\\AchieveKillEnemySpr\\AchieveKillEnemySpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0be4ddb1-3129-4b42-92f3-47f1fcbf81f0",
             "Value": {
                 "id": "38dcd9ce-ba53-42c9-b64f-46053e648452",
@@ -71,6 +79,14 @@
             }
         },
         {
+            "Key": "1307a06c-65c7-4caa-b6e3-84b3df92c38d",
+            "Value": {
+                "id": "69c909b5-63ba-4209-be42-31d2cd1f47b3",
+                "resourcePath": "objects\\Soval\\Soval.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "14c5b996-dee6-43e0-93d9-b250be32eebf",
             "Value": {
                 "id": "c8bde884-303a-4b58-b1bb-ec233c36d529",
@@ -95,6 +111,14 @@
             }
         },
         {
+            "Key": "18c6ea8b-bd5b-4ce7-88a9-ac4764cdf59f",
+            "Value": {
+                "id": "9135a37b-b2a0-4684-be87-d0307cdbad09",
+                "resourcePath": "tilesets\\LavaTiles\\LavaTiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "19ff1780-81e5-4125-9a95-8ddff393a403",
             "Value": {
                 "id": "103b7d6d-64f9-47b5-b8d0-5e6914f200f3",
@@ -107,6 +131,14 @@
             "Value": {
                 "id": "cb07f938-3614-4454-a420-e1a1bc097596",
                 "resourcePath": "sprites\\EvilTreeSpr\\EvilTreeSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1fff7198-700b-4d6a-82a6-b135059d0121",
+            "Value": {
+                "id": "4cae54d8-f52e-4dbf-8c19-4d131b13c292",
+                "resourcePath": "sprites\\PlayerMotivationsSpr\\PlayerMotivationsSpr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -143,11 +175,27 @@
             }
         },
         {
+            "Key": "2d195384-765c-46a9-b2e5-fcb036c53aba",
+            "Value": {
+                "id": "3145017d-d41a-414c-88c1-abfdd5114f2e",
+                "resourcePath": "sprites\\CoinSpr\\CoinSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2d88c2ca-8b72-46a5-8670-935dfcb04c66",
             "Value": {
                 "id": "52dd666d-669a-42bc-a8a2-9efcb0440421",
                 "resourcePath": "views\\2d88c2ca-8b72-46a5-8670-935dfcb04c66.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2e62611c-ac43-4751-9a04-e54b2bcf7da0",
+            "Value": {
+                "id": "e16a9e8a-8345-409c-a49d-ed4344e01549",
+                "resourcePath": "sprites\\TeaMsg3Spr\\TeaMsg3Spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,6 +239,14 @@
             }
         },
         {
+            "Key": "461d41ec-66b2-4b55-826f-0b0a60353599",
+            "Value": {
+                "id": "861b5e62-0a5a-41f3-aeb8-164e7a8a3620",
+                "resourcePath": "sprites\\LavaGroundSpr\\LavaGroundSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b593f30-a07d-485f-bb9f-c4e382f3936c",
             "Value": {
                 "id": "9de5212d-84f1-4151-839d-23f3fa393ee9",
@@ -215,6 +271,14 @@
             }
         },
         {
+            "Key": "5b63dbac-1077-49fb-8d82-c98dabb8f4ce",
+            "Value": {
+                "id": "b6da1407-d00b-45c9-b5f5-12543d204478",
+                "resourcePath": "objects\\Fireball\\Fireball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "60cb5652-4739-441e-b5da-b2764e29b295",
             "Value": {
                 "id": "1f9634b0-0ee1-4485-a847-7ea63ec705d3",
@@ -231,6 +295,22 @@
             }
         },
         {
+            "Key": "668ab689-eb14-4ff5-b248-34ec411c923c",
+            "Value": {
+                "id": "e648828a-e21d-4280-a294-e757bc18318a",
+                "resourcePath": "objects\\AchieveKillBoss\\AchieveKillBoss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "66acc6a0-3073-4e60-8aca-d2677869ad85",
+            "Value": {
+                "id": "f8acaa0a-5713-4595-9b8d-ebba603042f9",
+                "resourcePath": "sprites\\FireballSpr\\FireballSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "674563a7-d3b7-47aa-955b-73e4c71afc2c",
             "Value": {
                 "id": "2d20203d-df51-4375-8e85-ccc85414094b",
@@ -244,6 +324,14 @@
                 "id": "ccf31786-8121-46be-94ee-c9e8faad1cb5",
                 "resourcePath": "objects\\ActivateTut\\ActivateTut.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6b9b7bbc-d5a4-4bb6-9849-a812af6a46a5",
+            "Value": {
+                "id": "ba173491-f1c1-4058-822e-bead09d22b9b",
+                "resourcePath": "sprites\\CreditsButtonSpr\\CreditsButtonSpr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -279,11 +367,35 @@
             }
         },
         {
+            "Key": "75b39124-7899-4960-8799-355c77743708",
+            "Value": {
+                "id": "d2dd4862-c5c8-4bbd-9ebd-bac14a739aec",
+                "resourcePath": "scripts\\TryGivingAchievement\\TryGivingAchievement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "76dcba75-e59f-4774-ae38-f803400a43b4",
             "Value": {
                 "id": "022c0b73-8f6b-468f-acb6-4ffd1c33ec37",
                 "resourcePath": "views\\76dcba75-e59f-4774-ae38-f803400a43b4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "777d90bd-5499-4db7-a1c7-7c2b593f375f",
+            "Value": {
+                "id": "2a67e23d-21f4-488c-880b-07e359542bed",
+                "resourcePath": "objects\\DoorCredits\\DoorCredits.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7ce9a8e1-cbbf-4d78-8593-678e8a776b8e",
+            "Value": {
+                "id": "8b3298a1-8cb1-42ce-bd2b-8215bdd09588",
+                "resourcePath": "objects\\AchieveGetCoin\\AchieveGetCoin.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -415,6 +527,22 @@
             }
         },
         {
+            "Key": "a8bfada5-0a7e-45ea-b2b2-67a2574cb4e3",
+            "Value": {
+                "id": "76f2e758-a9ee-4a1e-8991-c00c75fd1976",
+                "resourcePath": "rooms\\CreditsRoom\\CreditsRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a91063db-afb3-42a5-aa8d-0904b05c211a",
+            "Value": {
+                "id": "fdd6409a-284e-4aa1-8bcf-e26e2139a3c1",
+                "resourcePath": "sprites\\ShadowTut3Spr\\ShadowTut3Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "36d5c354-6159-4a67-b689-c5b54bc5b2de",
@@ -428,6 +556,14 @@
                 "id": "538ab785-5a86-46e1-8f58-572f8b1e26aa",
                 "resourcePath": "sprites\\Help1Spr\\Help1Spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ab92692d-c81f-4093-a111-28303f81b7d8",
+            "Value": {
+                "id": "492f6377-fd4e-46ce-8f0b-5bc9c9c324b7",
+                "resourcePath": "objects\\Coin\\Coin.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -479,6 +615,22 @@
             }
         },
         {
+            "Key": "b98b5391-81c2-4912-aadb-bc53ee76aca7",
+            "Value": {
+                "id": "ce629a96-1be0-4e84-8d65-fe21fad66866",
+                "resourcePath": "rooms\\LavaPlanet\\LavaPlanet.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "bb81d43b-661b-4061-828b-ffa4ab15fff8",
+            "Value": {
+                "id": "126faf58-62f4-4d4f-9a60-8d72c3da65f0",
+                "resourcePath": "sprites\\ShadowTut1Spr\\ShadowTut1Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c4a4fe59-3021-4691-be11-496ce1548618",
             "Value": {
                 "id": "2b2a5773-537b-4a45-aec3-22310b74ed19",
@@ -511,6 +663,22 @@
             }
         },
         {
+            "Key": "d3c6bee6-fa02-42e2-9880-97a528aeea6c",
+            "Value": {
+                "id": "b69d18d4-7f70-49e8-a8ad-541ae51a24aa",
+                "resourcePath": "sprites\\ShadowTut2Spr\\ShadowTut2Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d730d19f-5514-4b61-adc9-80fc76db9087",
+            "Value": {
+                "id": "9ea5f0d0-9886-4522-ad56-c9c5c5dfe469",
+                "resourcePath": "sprites\\AchieveKillBossSpr\\AchieveKillBossSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d7e3c187-d89f-47db-b523-c671d5130daf",
             "Value": {
                 "id": "29b3811a-6ad9-49b5-8d23-bb5394a49f4d",
@@ -527,6 +695,22 @@
             }
         },
         {
+            "Key": "e0e7ce88-bc0e-4455-a59f-3cf13d2fdbdc",
+            "Value": {
+                "id": "845bc1d3-c274-4cfe-aed9-78029e8911f1",
+                "resourcePath": "sprites\\AchieveGetCoinSpr\\AchieveGetCoinSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e1401a76-838e-4f92-9636-4d19d22bd878",
+            "Value": {
+                "id": "db101463-2be0-45be-8dc9-16180f27a72d",
+                "resourcePath": "rooms\\Storyline3\\Storyline3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e5477c4a-519c-41db-b7f8-612a30d77873",
             "Value": {
                 "id": "542fab94-af30-454e-ae6d-c41a76d14f39",
@@ -539,6 +723,14 @@
             "Value": {
                 "id": "a1a078cc-830e-476d-975a-69fdb79b535f",
                 "resourcePath": "objects\\DoorStart\\DoorStart.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e7311499-de12-4b5e-879c-e1b4c01dc46b",
+            "Value": {
+                "id": "50dca511-ac6f-48cd-8353-770b2584c271",
+                "resourcePath": "objects\\AchieveKillEnemy\\AchieveKillEnemy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -567,6 +759,22 @@
             }
         },
         {
+            "Key": "f212c05d-5c82-4a47-aa50-321610190ced",
+            "Value": {
+                "id": "070b2a0b-97ba-40c2-876d-5b012c79acde",
+                "resourcePath": "sprites\\SovalSpr\\SovalSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f21f05e9-d8ff-40cb-9d19-a1e179648108",
+            "Value": {
+                "id": "ab25331a-1679-43d4-b025-6081c40e581d",
+                "resourcePath": "objects\\DoorBackToStart\\DoorBackToStart.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "ddeb7834-c263-4fd1-ad92-ff89fa909e7e",
@@ -586,7 +794,8 @@
     "script_order": [
         "90103686-a3fd-404d-aca1-8063e4661222",
         "879148ca-4655-4f4b-b9af-661bf7f9f08a",
-        "e799ef87-0498-4d54-9891-65d917ca51d9"
+        "e799ef87-0498-4d54-9891-65d917ca51d9",
+        "75b39124-7899-4960-8799-355c77743708"
     ],
     "tutorial": ""
 }
