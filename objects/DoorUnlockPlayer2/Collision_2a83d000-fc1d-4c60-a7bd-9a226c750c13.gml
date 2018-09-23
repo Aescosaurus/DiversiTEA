@@ -12,6 +12,6 @@ touchingPlayer = true
 
 if( keyboard_check( ord( "K" ) ) )
 {
-	global.GAME_DIFFICULTY = "E"
-	room_goto( GrassPlanet )
+	global.PLAYER_SPRITE = Player2Spr
+	room_goto( HelpRoom )
 }

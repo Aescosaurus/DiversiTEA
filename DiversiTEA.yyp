@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02482269-e5eb-4235-aa28-f914e690d6fa",
+            "Value": {
+                "id": "18c2c2b5-a3d4-46a1-8280-ca5a350a8835",
+                "resourcePath": "rooms\\ShopRoom\\ShopRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "02c46878-63c2-450e-873d-e748bbdf138e",
             "Value": {
                 "id": "f7c38ac7-38d5-4e4e-9c88-569007ddb871",
@@ -60,6 +68,14 @@
                 "id": "38dcd9ce-ba53-42c9-b64f-46053e648452",
                 "resourcePath": "rooms\\GrassPlanet\\GrassPlanet.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "0c4ad12d-4a80-436c-ae99-c5a390638d93",
+            "Value": {
+                "id": "0cb5c6b3-275d-41b0-9a83-ffaee70019ca",
+                "resourcePath": "sprites\\Player3Spr\\Player3Spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -127,6 +143,14 @@
             }
         },
         {
+            "Key": "19fc2344-0cfc-4e76-8fa8-0e96c959e743",
+            "Value": {
+                "id": "a60d9598-5adb-47cc-8b77-472b6322c94b",
+                "resourcePath": "objects\\DoorUnlockPlayer4\\DoorUnlockPlayer4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "19ff1780-81e5-4125-9a95-8ddff393a403",
             "Value": {
                 "id": "103b7d6d-64f9-47b5-b8d0-5e6914f200f3",
@@ -188,6 +212,14 @@
                 "id": "e8ab84f9-caf0-4933-be47-5275b8a57270",
                 "resourcePath": "sounds\\Ouch1Sound\\Ouch1Sound.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2c847df5-b9c6-4634-b7a4-067cf6bd08e8",
+            "Value": {
+                "id": "347b1b90-ccea-4454-8df0-7b479dc10c8c",
+                "resourcePath": "objects\\DoorStore\\DoorStore.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -423,6 +455,14 @@
             }
         },
         {
+            "Key": "727a2dfb-b2b7-4c01-8b81-5d23b0549c5b",
+            "Value": {
+                "id": "f9d67c74-b061-4fca-9739-b775013311a3",
+                "resourcePath": "sprites\\Cost099Spr\\Cost099Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "739e02a3-f5fc-45a9-bf79-b66d232fbd34",
             "Value": {
                 "id": "7552667d-dec9-4641-91fe-550e7b5ee742",
@@ -471,11 +511,27 @@
             }
         },
         {
+            "Key": "807040be-a960-435b-876d-bc696e5e52ba",
+            "Value": {
+                "id": "a39313b9-0bbd-44be-bed1-493d60dcd447",
+                "resourcePath": "sprites\\Cost199Spr\\Cost199Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "80874bd4-3619-4e1a-ac5f-57453f15f873",
             "Value": {
                 "id": "9c1ac7c9-8c5f-4f9c-b7c8-e9fa206d1e91",
                 "resourcePath": "views\\80874bd4-3619-4e1a-ac5f-57453f15f873.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8346d549-426a-4a69-84e6-fc1b7d11ad12",
+            "Value": {
+                "id": "69a096e2-123e-4a5d-a81b-9324b7417266",
+                "resourcePath": "rooms\\InitStuffRoom\\InitStuffRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -703,6 +759,22 @@
             }
         },
         {
+            "Key": "c80ece61-3c9e-4020-a120-c273470dab73",
+            "Value": {
+                "id": "74c27cd2-969e-4918-8e0e-da277c1d4df4",
+                "resourcePath": "sprites\\Player4Spr\\Player4Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c8ea4d38-8bd5-44c2-9e07-8718f8f5a08b",
+            "Value": {
+                "id": "77c09c3b-9f48-4679-b0e7-fe1907d4662d",
+                "resourcePath": "objects\\DoorUnlockPlayer2\\DoorUnlockPlayer2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cb75eb1e-1fd2-485c-b5e9-85da86bcc771",
             "Value": {
                 "id": "1aa07d41-793c-48c7-bbba-7d1ad30895a4",
@@ -767,10 +839,34 @@
             }
         },
         {
+            "Key": "db23df86-b721-408e-95e5-a89b4c700dd7",
+            "Value": {
+                "id": "796cf34b-5939-417a-bc33-8de4219ace3e",
+                "resourcePath": "sprites\\Player2Spr\\Player2Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dbc530ce-5a5c-4bea-ab1e-87539dc890f8",
+            "Value": {
+                "id": "6a1de54b-7e78-420c-b5cd-db16a28378d5",
+                "resourcePath": "objects\\DoorUnlockPlayer3\\DoorUnlockPlayer3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dd7de1ad-ca1a-40f8-896f-c94fdad829b5",
             "Value": {
                 "id": "1353812a-2513-44db-81d9-7c90115561fc",
                 "resourcePath": "sprites\\EasyButtonSpr\\EasyButtonSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dea38854-4e23-46df-931a-3d9394d21b7d",
+            "Value": {
+                "id": "7dbc0aca-33d9-4c99-8ad1-31cf0915cb50",
+                "resourcePath": "sprites\\StoreButtonSpr\\StoreButtonSpr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -876,6 +972,14 @@
                 "id": "ddeb7834-c263-4fd1-ad92-ff89fa909e7e",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f91ebf85-cad4-4f67-9f94-aa89ddf15b01",
+            "Value": {
+                "id": "398c9dbf-894b-4887-82a8-aafd8ee7f25e",
+                "resourcePath": "sprites\\Cost499Spr\\Cost499Spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

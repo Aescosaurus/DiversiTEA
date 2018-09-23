@@ -12,6 +12,5 @@ touchingPlayer = true
 
 if( keyboard_check( ord( "K" ) ) )
 {
-	global.GAME_DIFFICULTY = "E"
-	room_goto( GrassPlanet )
+	room_goto( ShopRoom )
 }
