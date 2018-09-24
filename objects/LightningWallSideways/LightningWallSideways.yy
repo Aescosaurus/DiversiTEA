@@ -5,23 +5,23 @@
     "name": "LightningWallSideways",
     "eventList": [
         {
-            "id": "1f5cdd3b-3b28-43e3-96b2-30353eaf3b04",
+            "id": "0dbcd288-44ab-432a-a73c-ef67eb9b2d43",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "0cf03e89-7916-4a41-9577-d3819258d0c0",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "fb691f27-03a4-4fac-be1a-809b9cd4eb35"
+        },
+        {
+            "id": "f6ae5e2a-6d26-4219-afe4-b4046d6b0c2a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "6b71ec26-53cc-4094-ad83-9b2703c95b18",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "fb691f27-03a4-4fac-be1a-809b9cd4eb35"
-        },
-        {
-            "id": "c48ef8f7-1e5a-497e-9443-4c4e92888bef",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
             "m_owner": "fb691f27-03a4-4fac-be1a-809b9cd4eb35"
         }
     ],
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "f0e00d22-24f7-46e2-8bde-c1fb5916bb32",
+    "spriteId": "aac35ef4-0a0a-49f3-8f59-f98302e79b1d",
     "visible": true
 }

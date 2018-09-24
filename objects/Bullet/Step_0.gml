@@ -2,7 +2,8 @@
 
 var dt = GetDT()
 
-x += dir * moveSpeed * dt
+x += xMove * moveSpeed * dt
+y += yMove * moveSpeed * dt
 
 lifetimer -= dt
 if( lifetimer <= 0.0 )

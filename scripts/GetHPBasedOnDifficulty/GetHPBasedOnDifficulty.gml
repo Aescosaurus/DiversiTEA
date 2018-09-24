@@ -10,7 +10,7 @@ else if( global.GAME_DIFFICULTY == "M" )
 {
 	return( argument1 )
 }
-else if( global.GAME_DIFFICUTLY == "H" )
+else if( global.GAME_DIFFICULTY == "H" )
 {
 	return( argument2 )
 }

@@ -13,7 +13,12 @@ touchingPlayer = true
 if( keyboard_check( ord( "K" ) ) )
 {
 	other.gravDir = "U"
+	other.grav = 0.0
 	other.image_xscale = 1
 	other.image_yscale = -1
 	other.image_angle = 0
+	
+	var ball = instance_find( LightningBall,0 )
+	ball.xVel = 0.0
+	ball.yVel = -1.0 * ball.moveSpeed
 }

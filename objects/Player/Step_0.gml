@@ -58,10 +58,15 @@ if( gravDir == "U" || gravDir == "D" )
 	if( xMove > 0.0 ) image_xscale = 1.0
 	else if( xMove < 0.0 ) image_xscale = -1.0
 }
-else if( gravDir == "L" || gravDir == "R" )
+else if( gravDir == "L" )
 {
 	if( yMove > 0.0 ) image_xscale = 1.0
 	else if( yMove < 0.0 ) image_xscale = -1.0
+}
+else if( gravDir == "R" )
+{
+	if( yMove > 0.0 ) image_xscale = -1.0
+	else if( yMove < 0.0 ) image_xscale = 1.0
 }
 
 // Use these for all movement, then apply to x and y
@@ -74,10 +79,10 @@ if( jumping )
 	// else yMove -= jumpPower * dt
 	switch( gravDir )
 	{
-		case "U": yMove += jumpPower * dt; break
-		case "D": yMove -= jumpPower * dt; break
-		case "L": xMove += jumpPower * dt; break
-		case "R": xMove -= jumpPower * dt; break
+	case "U": yMove += jumpPower * dt; break
+	case "D": yMove -= jumpPower * dt; break
+	case "L": xMove += jumpPower * dt; break
+	case "R": xMove -= jumpPower * dt; break
 	}
 }
 
@@ -86,10 +91,10 @@ grav += gravAcc * dt
 // else yMove -= grav * dt
 switch( gravDir )
 {
-	case "U": yMove -= grav * dt; break
-	case "D": yMove += grav * dt; break
-	case "L": xMove -= grav * dt; break
-	case "R": xMove += grav * dt; break
+case "U": yMove -= grav * dt; break
+case "D": yMove += grav * dt; break
+case "L": xMove -= grav * dt; break
+case "R": xMove += grav * dt; break
 }
 // if( yMove > maxFallSpeed ) yMove = maxFallSpeed
 
@@ -126,12 +131,24 @@ if( keyboard_check( ord( "J" ) ) && ( shotTimer >= refireTime ) )
 {
 	shotTimer = 0.0
 	
-	// TODO: Change bullet dir depending on if you're sideways or whatever orientation you happen to be.
-	//  We're inclusive here. ;)
-	
 	var bull = instance_create_layer( x,y,"ProjectilesLayer",Bullet )
-	bull.dir = image_xscale
-	bull.image_xscale = image_xscale
+	// bull.dir = image_xscale
+	// bull.image_xscale = image_xscale
+	switch( gravDir )
+	{
+	case "U": case "D":
+		bull.xMove = image_xscale
+		bull.image_xscale = image_xscale
+		break
+	case "L":
+		bull.yMove = image_xscale
+		bull.image_angle = -90 * image_xscale
+		break
+	case "R":
+		bull.yMove = -image_xscale
+		bull.image_angle = 90 * image_xscale
+		break
+	}
 	
 	audio_play_sound( Ouch1Sound,1,false )
 }

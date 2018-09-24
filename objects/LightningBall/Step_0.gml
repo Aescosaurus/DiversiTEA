@@ -16,7 +16,7 @@ else
 if( tilemap_get_at_pixel( tileLayer,x,y + halfHeight * yDir + yMove ) <= 0 ) y += yMove
 else
 {
-	xVel *= -1
+	yVel *= -1
 }
 
 rotTimer += dt

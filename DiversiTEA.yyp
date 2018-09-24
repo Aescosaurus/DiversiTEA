@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "240317a6-afe8-49ac-b142-417a626168c1",
+            "Value": {
+                "id": "d4980868-e187-44e6-a004-ac7dffd81d6b",
+                "resourcePath": "sprites\\Puzzle1SolutionSpr\\Puzzle1SolutionSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "25ef6488-09fd-4813-89a4-001bb43ac6d3",
             "Value": {
                 "id": "e63495bc-2fa8-4845-9146-ac715f50e606",
@@ -276,6 +284,14 @@
                 "id": "c1eb121c-02fe-448f-807c-9b812c76f0fd",
                 "resourcePath": "scripts\\GetHPBasedOnDifficulty\\GetHPBasedOnDifficulty.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "37e351b7-34e5-45f7-8dfd-18ad47df59fe",
+            "Value": {
+                "id": "da2994af-aff6-409b-b02b-fac6533bebe0",
+                "resourcePath": "sprites\\TeaMsg4Spr\\TeaMsg4Spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -567,6 +583,14 @@
             }
         },
         {
+            "Key": "7ef72634-7120-4d7b-9ca0-624dafb228e5",
+            "Value": {
+                "id": "01bc1da6-03c4-4879-b725-60bddde07394",
+                "resourcePath": "sprites\\RestartButtonSpr\\RestartButtonSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7f69e52f-1c3e-4673-9e05-a1b5bf5cde8e",
             "Value": {
                 "id": "db840139-2987-4abf-8269-bbcc0eeffb9d",
@@ -603,6 +627,14 @@
             "Value": {
                 "id": "7b8ad4e0-3959-4bd8-83f3-077ac1fd9807",
                 "resourcePath": "rooms\\TitleScreen\\TitleScreen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8717a64f-ca23-4ddf-bda5-7662eba413a8",
+            "Value": {
+                "id": "b687a10e-7ea1-4bf9-872e-aa546d1d704e",
+                "resourcePath": "rooms\\Storyline4\\Storyline4.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -751,6 +783,14 @@
             }
         },
         {
+            "Key": "aac35ef4-0a0a-49f3-8f59-f98302e79b1d",
+            "Value": {
+                "id": "d50653ac-e534-4695-b2c9-f27f4090253b",
+                "resourcePath": "sprites\\LightningWallSidewaysSpr\\LightningWallSidewaysSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ab92692d-c81f-4093-a111-28303f81b7d8",
             "Value": {
                 "id": "492f6377-fd4e-46ce-8f0b-5bc9c9c324b7",
@@ -860,6 +900,14 @@
                 "id": "79dcac53-4976-4b4d-977e-c02444ee9b70",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ccd32e8b-4111-4bd5-b427-3399fa4db7d9",
+            "Value": {
+                "id": "568b678b-7610-491a-a060-92dc40feba73",
+                "resourcePath": "objects\\RestartButton\\RestartButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
