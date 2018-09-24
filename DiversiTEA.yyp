@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00773675-89d1-4b0d-bac6-af25730a367c",
+            "Value": {
+                "id": "ceaa66b3-4420-42ef-9cb1-7ff4c3534887",
+                "resourcePath": "objects\\GravityChangerDown\\GravityChangerDown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "02482269-e5eb-4235-aa28-f914e690d6fa",
             "Value": {
                 "id": "18c2c2b5-a3d4-46a1-8280-ca5a350a8835",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "2a90e72d-5758-4c6d-80a6-24911b5f4abf",
+            "Value": {
+                "id": "bb67009e-ba33-4c59-81d4-a41513a5fcac",
+                "resourcePath": "sprites\\GravityChangerLeftSpr\\GravityChangerLeftSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ae0f56f-f879-4731-a760-88e70f671ed5",
             "Value": {
                 "id": "e8ab84f9-caf0-4933-be47-5275b8a57270",
@@ -244,6 +260,14 @@
                 "id": "e16a9e8a-8345-409c-a49d-ed4344e01549",
                 "resourcePath": "sprites\\TeaMsg3Spr\\TeaMsg3Spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2ee46032-adb2-480d-816b-2f242c1eaa5d",
+            "Value": {
+                "id": "8cf110b1-776c-4afd-971b-21616791102a",
+                "resourcePath": "objects\\GravityChangerUp\\GravityChangerUp.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -343,6 +367,14 @@
             }
         },
         {
+            "Key": "597a18ce-7092-4541-8dd5-0a57e295db43",
+            "Value": {
+                "id": "456f7233-50d7-49cf-86f7-47dc92052afe",
+                "resourcePath": "objects\\GravityChangerRight\\GravityChangerRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59e9e4ae-80c0-4871-8211-de9a79274658",
             "Value": {
                 "id": "0b7f99c8-fab3-49d2-8480-e55dfe401aef",
@@ -356,6 +388,14 @@
                 "id": "b6da1407-d00b-45c9-b5f5-12543d204478",
                 "resourcePath": "objects\\Fireball\\Fireball.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6014e2db-43a5-4871-a4fb-7f52676a9a01",
+            "Value": {
+                "id": "7818ed65-7c68-487f-8eef-4292b0517da8",
+                "resourcePath": "sprites\\LightningBallSpr\\LightningBallSpr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -407,10 +447,26 @@
             }
         },
         {
+            "Key": "69c26551-f2fa-4bf5-b28d-e0054fc2e2a1",
+            "Value": {
+                "id": "4b0bab64-09b4-412c-b1ac-b3479a5ddf2b",
+                "resourcePath": "objects\\GravityChangerLeft\\GravityChangerLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6a27bf2d-6294-48a3-93eb-e89331ee68be",
             "Value": {
                 "id": "ccf31786-8121-46be-94ee-c9e8faad1cb5",
                 "resourcePath": "objects\\ActivateTut\\ActivateTut.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6b71ec26-53cc-4094-ad83-9b2703c95b18",
+            "Value": {
+                "id": "09b58a25-b67b-4b92-8499-e5dd2fd6f63c",
+                "resourcePath": "objects\\LightningBall\\LightningBall.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -511,6 +567,14 @@
             }
         },
         {
+            "Key": "7f69e52f-1c3e-4673-9e05-a1b5bf5cde8e",
+            "Value": {
+                "id": "db840139-2987-4abf-8269-bbcc0eeffb9d",
+                "resourcePath": "objects\\LightningWall\\LightningWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "807040be-a960-435b-876d-bc696e5e52ba",
             "Value": {
                 "id": "a39313b9-0bbd-44be-bed1-493d60dcd447",
@@ -572,6 +636,14 @@
                 "id": "149caa08-32a4-4324-8653-e397166cd902",
                 "resourcePath": "views\\8c987540-cce7-449b-9eb6-ea45317c43b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8cc275c6-5679-4a5f-a102-f1e465bc35fc",
+            "Value": {
+                "id": "52d8e059-cd72-4c82-9bbb-3105bb28eeaa",
+                "resourcePath": "sprites\\GravityChangerRightSpr\\GravityChangerRightSpr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -839,6 +911,14 @@
             }
         },
         {
+            "Key": "d89062ba-abbd-4c09-9c9f-4a48e010c79c",
+            "Value": {
+                "id": "af3c27a8-132a-4868-8798-331d8e45ab11",
+                "resourcePath": "sprites\\GravityChangerDownSpr\\GravityChangerDownSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "db23df86-b721-408e-95e5-a89b4c700dd7",
             "Value": {
                 "id": "796cf34b-5939-417a-bc33-8de4219ace3e",
@@ -911,6 +991,14 @@
             }
         },
         {
+            "Key": "e60b93b5-37b2-45c2-b7aa-0c29cacaa71c",
+            "Value": {
+                "id": "ee90e089-7068-479f-a137-e72b9073e1cd",
+                "resourcePath": "sprites\\GravityChangerUpSpr\\GravityChangerUpSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e6e0d16c-4f74-4a99-b28a-a6ef3c669cd8",
             "Value": {
                 "id": "a1a078cc-830e-476d-975a-69fdb79b535f",
@@ -947,6 +1035,14 @@
             "Value": {
                 "id": "88de63f1-8fcf-4f22-9a02-2160e37b9135",
                 "resourcePath": "sprites\\HelpMenuSpr\\HelpMenuSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f0e00d22-24f7-46e2-8bde-c1fb5916bb32",
+            "Value": {
+                "id": "e00c9e0b-a0cf-4635-ab7c-9c104a678d47",
+                "resourcePath": "sprites\\LightningWallSpr\\LightningWallSpr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -988,6 +1084,14 @@
                 "id": "8bd45435-5a49-4543-b91a-14083e2dd410",
                 "resourcePath": "sprites\\BulletSpr\\BulletSpr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fb691f27-03a4-4fac-be1a-809b9cd4eb35",
+            "Value": {
+                "id": "3dad90d9-6f10-462e-87dc-1789098c82a4",
+                "resourcePath": "objects\\LightningWallSideways\\LightningWallSideways.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

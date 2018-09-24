@@ -9,4 +9,5 @@ global.ACHIEVED_KILL_BOSS = false
 // Player sprite
 global.PLAYER_SPRITE = PlayerSpr
 
-room_goto( TitleScreen )
+// room_goto( TitleScreen )
+room_goto_next()
