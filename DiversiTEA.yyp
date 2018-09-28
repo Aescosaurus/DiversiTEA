@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "12164ddf-9789-4fb8-ac16-d67e7ccb9876",
+            "Value": {
+                "id": "13475357-1087-42c2-89d5-60389faebaa5",
+                "resourcePath": "sounds\\HitWallSound\\HitWallSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1307a06c-65c7-4caa-b6e3-84b3df92c38d",
             "Value": {
                 "id": "69c909b5-63ba-4209-be42-31d2cd1f47b3",
@@ -260,6 +268,14 @@
                 "id": "52dd666d-669a-42bc-a8a2-9efcb0440421",
                 "resourcePath": "views\\2d88c2ca-8b72-46a5-8670-935dfcb04c66.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2df66769-3c95-4383-ba2c-e8b25b84d4f1",
+            "Value": {
+                "id": "16b8eae3-9305-40f4-9e0f-b511206d366c",
+                "resourcePath": "sounds\\EnterDoorSound\\EnterDoorSound.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1076,6 +1092,14 @@
                 "id": "fc8e1a2a-58cf-40b2-a113-ad0e00463d6c",
                 "resourcePath": "views\\e7ad8469-6297-4e62-b12a-a33cb325eb89.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e8d791bc-b015-42bf-b23e-5abd5ee71186",
+            "Value": {
+                "id": "84746df5-963b-422a-89dc-d4589d7764c7",
+                "resourcePath": "sounds\\LandSound\\LandSound.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -12,6 +12,7 @@ touchingPlayer = true
 
 if( keyboard_check( ord( "K" ) ) )
 {
+	audio_play_sound( EnterDoorSound,10,false )
 	global.PLAYER_SPRITE = Player3Spr
 	room_goto( HelpRoom )
 }

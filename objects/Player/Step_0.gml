@@ -7,26 +7,6 @@ var dt = GetDT()
 var xMove = 0.0
 var yMove = 0.0
 
-// Input check
-// if( keyboard_check( ord( "W" ) ) ) jumping = true
-// // if( keyboard_check( ord( "S" ) ) ) ++yMove
-// if( keyboard_check( ord( "A" ) ) )
-// {
-// 	switch( gravDir )
-// 	{
-// 		case "U": case "D": --xMove; break
-// 		case "R": jumping = true; break
-// 	}
-// }
-// if( keyboard_check( ord( "D" ) ) )
-// {
-// 	switch( gravDir )
-// 	{
-// 		case "U": case "D": ++xMove; break
-// 		case "L": jumping = true; break
-// 	}
-// }
-
 switch( gravDir )
 {
 case "U":
@@ -75,6 +55,7 @@ yMove = yMove * moveSpeed * dt
 
 if( jumping )
 {
+	landed = false
 	// if( gravDir == "D" ) yMove += jumpPower * dt
 	// else yMove -= jumpPower * dt
 	switch( gravDir )
@@ -111,6 +92,16 @@ else if( gravDir == "L" || gravDir == "R" )
 	
 	grav = 0.0
 	jumping = false
+	
+	if( !audio_is_playing( LandSound ) && !landed )
+	{
+		audio_play_sound( LandSound,10,false )
+		landed = true
+	}
+}
+else
+{
+	if( !audio_is_playing( HitWallSound ) ) audio_play_sound( HitWallSound,10,false )
 }
 if( tilemap_get_at_pixel( tileLayer,x,y + ( halfHeight * yDir ) + yMove ) <= 0 ) y += yMove
 else if( gravDir == "D" || gravDir == "U" )
@@ -121,6 +112,16 @@ else if( gravDir == "D" || gravDir == "U" )
 	
 	grav = 0.0
 	jumping = false
+	
+	if( !audio_is_playing( LandSound ) && !landed )
+	{
+		audio_play_sound( LandSound,10,false )
+		landed = true
+	}
+}
+else
+{
+	if( !audio_is_playing( HitWallSound ) ) audio_play_sound( HitWallSound,10,false )
 }
 
 // Attacking stuff here

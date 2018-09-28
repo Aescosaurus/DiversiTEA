@@ -12,6 +12,7 @@ touchingPlayer = true
 
 if( keyboard_check( ord( "K" ) ) )
 {
+	audio_play_sound( EnterDoorSound,10,false )
 	global.GAME_DIFFICULTY = "E"
 	room_goto( GrassPlanet )
 }

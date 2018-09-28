@@ -12,8 +12,7 @@ tileLayer = layer_tilemap_get_id( "TileLayer" )
 halfWidth = sprite_get_width( sprite_index ) / 2.0
 halfHeight = sprite_get_height( sprite_index ) / 2.0
 gravDir = "D" // U/up, D/down, L/left, R/right
-
-// global.GAME_DIFFICULTY = "M" // REMOVE THIS
+landed = false
 
 hp = GetHPBasedOnDifficulty( 9999,3,1 )
 
