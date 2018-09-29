@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "036b4113-0c4f-4211-adfa-cf819cc41c50",
+            "Value": {
+                "id": "63db4a81-ec65-48de-99b5-f1b13ef1fed0",
+                "resourcePath": "sprites\\LandSoundTextSpr\\LandSoundTextSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "03ed365b-1a80-4734-b009-e0c8bc433758",
             "Value": {
                 "id": "554ea649-e9bb-482c-86c8-01d7d93f1aeb",
@@ -68,6 +76,14 @@
                 "id": "9fa5a44d-5d2b-4166-ae8b-31d29a38a7eb",
                 "resourcePath": "sprites\\AchieveKillEnemySpr\\AchieveKillEnemySpr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0ba3f5a5-bacd-4516-a532-7d0e53430de1",
+            "Value": {
+                "id": "d7c114ac-bc73-4179-946d-4014afeb1485",
+                "resourcePath": "objects\\AudioObject\\AudioObject.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -199,6 +215,14 @@
             }
         },
         {
+            "Key": "253ac804-eb7d-4d0e-b315-2ec7ad7da2ea",
+            "Value": {
+                "id": "4b25f8c4-d2a8-4371-83ff-2714afe74450",
+                "resourcePath": "sprites\\SlashSoundTextSpr\\SlashSoundTextSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "25ef6488-09fd-4813-89a4-001bb43ac6d3",
             "Value": {
                 "id": "e63495bc-2fa8-4845-9146-ac715f50e606",
@@ -242,7 +266,7 @@
             "Key": "2ae0f56f-f879-4731-a760-88e70f671ed5",
             "Value": {
                 "id": "e8ab84f9-caf0-4933-be47-5275b8a57270",
-                "resourcePath": "sounds\\Ouch1Sound\\Ouch1Sound.yy",
+                "resourcePath": "sounds\\SlashSound\\SlashSound.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -355,6 +379,14 @@
             "Value": {
                 "id": "861b5e62-0a5a-41f3-aeb8-164e7a8a3620",
                 "resourcePath": "sprites\\LavaGroundSpr\\LavaGroundSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "47d2f48e-ff46-4af9-afa5-8dfc0564921c",
+            "Value": {
+                "id": "9570ea52-df6f-4537-9710-8d955235db04",
+                "resourcePath": "sprites\\ZapSoundTextSpr\\ZapSoundTextSpr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -492,6 +524,14 @@
                 "id": "ccf31786-8121-46be-94ee-c9e8faad1cb5",
                 "resourcePath": "objects\\ActivateTut\\ActivateTut.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6a5d30c8-0503-4ffd-ac8c-35da0ea160b6",
+            "Value": {
+                "id": "c5179040-ba4d-482d-9a59-b0565575c977",
+                "resourcePath": "scripts\\PlaySoundText\\PlaySoundText.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -831,6 +871,22 @@
             }
         },
         {
+            "Key": "b2be215f-cd6c-48d7-bf93-d487ab13897a",
+            "Value": {
+                "id": "93ec5ca1-b336-4b24-95b8-49f651b36703",
+                "resourcePath": "sprites\\EnterDoorSoundTextSpr\\EnterDoorSoundTextSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b2ea4504-d144-465d-bccd-9711ba25bebc",
+            "Value": {
+                "id": "3d5a483c-354f-4e56-967a-7e086fd9cb69",
+                "resourcePath": "sprites\\HitWallSoundTextSpr\\HitWallSoundTextSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b4406508-3c4f-4f04-8ada-abe295859a54",
             "Value": {
                 "id": "c5a5da65-3d86-4adc-94c6-0b574aeee4a3",
@@ -1135,6 +1191,14 @@
             }
         },
         {
+            "Key": "f23cf14e-40f9-4b6a-9a08-034c4b54184e",
+            "Value": {
+                "id": "33ec2b68-b84b-42ca-9048-47677b75975d",
+                "resourcePath": "sounds\\ZapSound\\ZapSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "ddeb7834-c263-4fd1-ad92-ff89fa909e7e",
@@ -1165,6 +1229,14 @@
                 "resourcePath": "objects\\LightningWallSideways\\LightningWallSideways.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "fc643c13-1d86-4742-a233-b79b860be748",
+            "Value": {
+                "id": "cc7eaf20-42d9-4f96-9090-9c10bb99de9b",
+                "resourcePath": "sounds\\bgMusic\\bgMusic.yy",
+                "resourceType": "GMSound"
+            }
         }
     ],
     "script_order": [
@@ -1172,7 +1244,8 @@
         "879148ca-4655-4f4b-b9af-661bf7f9f08a",
         "e799ef87-0498-4d54-9891-65d917ca51d9",
         "75b39124-7899-4960-8799-355c77743708",
-        "34f1163c-8c3c-4536-9950-1d2918c5f911"
+        "34f1163c-8c3c-4536-9950-1d2918c5f911",
+        "6a5d30c8-0503-4ffd-ac8c-35da0ea160b6"
     ],
     "tutorial": ""
 }

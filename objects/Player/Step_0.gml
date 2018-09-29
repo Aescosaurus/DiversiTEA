@@ -10,24 +10,24 @@ var yMove = 0.0
 switch( gravDir )
 {
 case "U":
-	if( keyboard_check( ord( "S" ) ) ) jumping = true
-	if( keyboard_check( ord( "A" ) ) ) --xMove
-	if( keyboard_check( ord( "D" ) ) ) ++xMove
+	if( keyboard_check( ord( "S" ) ) || keyboard_check( vk_down ) ) jumping = true
+	if( keyboard_check( ord( "A" ) ) || keyboard_check( vk_left ) ) --xMove
+	if( keyboard_check( ord( "D" ) ) || keyboard_check( vk_right ) ) ++xMove
 	break
 case "D": // normal gravity
-	if( keyboard_check( ord( "W" ) ) ) jumping = true
-	if( keyboard_check( ord( "A" ) ) ) --xMove
-	if( keyboard_check( ord( "D" ) ) ) ++xMove
+	if( keyboard_check( ord( "W" ) ) || keyboard_check( vk_up ) ) jumping = true
+	if( keyboard_check( ord( "A" ) ) || keyboard_check( vk_left ) ) --xMove
+	if( keyboard_check( ord( "D" ) ) || keyboard_check( vk_right ) ) ++xMove
 	break
 case "L":
-	if( keyboard_check( ord( "D" ) ) ) jumping = true
-	if( keyboard_check( ord( "W" ) ) ) --yMove
-	if( keyboard_check( ord( "S" ) ) ) ++yMove
+	if( keyboard_check( ord( "D" ) ) || keyboard_check( vk_right ) ) jumping = true
+	if( keyboard_check( ord( "W" ) ) || keyboard_check( vk_up ) ) --yMove
+	if( keyboard_check( ord( "S" ) || keyboard_check( vk_down ) ) ) ++yMove
 	break
 case "R":
-	if( keyboard_check( ord( "A" ) ) ) jumping = true
-	if( keyboard_check( ord( "S" ) ) ) ++yMove
-	if( keyboard_check( ord( "W" ) ) ) --yMove
+	if( keyboard_check( ord( "A" ) ) || keyboard_check( vk_left ) ) jumping = true
+	if( keyboard_check( ord( "S" ) ) || keyboard_check( vk_down ) ) ++yMove
+	if( keyboard_check( ord( "W" ) ) || keyboard_check( vk_up ) ) --yMove
 	break
 default: show_debug_message( "You will never get this!" ) break
 }
@@ -95,13 +95,13 @@ else if( gravDir == "L" || gravDir == "R" )
 	
 	if( !audio_is_playing( LandSound ) && !landed )
 	{
-		audio_play_sound( LandSound,10,false )
+		PlaySoundText( LandSound,LandSoundTextSpr,x,y + textOffset )
 		landed = true
 	}
 }
 else
 {
-	if( !audio_is_playing( HitWallSound ) ) audio_play_sound( HitWallSound,10,false )
+	if( !audio_is_playing( HitWallSound ) ) PlaySoundText( HitWallSound,HitWallSoundTextSpr,x,y - textOffset )
 }
 if( tilemap_get_at_pixel( tileLayer,x,y + ( halfHeight * yDir ) + yMove ) <= 0 ) y += yMove
 else if( gravDir == "D" || gravDir == "U" )
@@ -115,20 +115,20 @@ else if( gravDir == "D" || gravDir == "U" )
 	
 	if( !audio_is_playing( LandSound ) && !landed )
 	{
-		audio_play_sound( LandSound,10,false )
+		PlaySoundText( LandSound,LandSoundTextSpr,x,y + textOffset )
 		landed = true
 	}
 }
 else
 {
-	if( !audio_is_playing( HitWallSound ) ) audio_play_sound( HitWallSound,10,false )
+	if( !audio_is_playing( HitWallSound ) ) PlaySoundText( HitWallSound,HitWallSoundTextSpr,x,y - textOffset )
 }
 
 // Attacking stuff here
 
 shotTimer += dt
 
-if( keyboard_check( ord( "J" ) ) && ( shotTimer >= refireTime ) )
+if( ( keyboard_check( ord( "J" ) ) || keyboard_check( ord( "Q" ) ) ) && ( shotTimer >= refireTime ) )
 {
 	shotTimer = 0.0
 	
@@ -151,7 +151,29 @@ if( keyboard_check( ord( "J" ) ) && ( shotTimer >= refireTime ) )
 		break
 	}
 	
-	audio_play_sound( Ouch1Sound,1,false )
+	// audio_play_sound( SlashSound,1,false )
+	PlaySoundText( SlashSound,SlashSoundTextSpr,x + textOffset * image_xscale,y - textOffset * 1.5 )
+}
+
+// Play error sound and give error message if key that isnt mapped is pressed
+if( keyboard_check( vk_anykey ) )
+{
+	if( !keyboard_check( ord( "W" ) ) &&
+		!keyboard_check( ord( "S" ) ) &&
+		!keyboard_check( ord( "A" ) ) &&
+		!keyboard_check( ord( "D" ) ) &&
+		!keyboard_check( ord( "J" ) ) &&
+		!keyboard_check( ord( "K" ) ) &&
+		!keyboard_check( ord( "Q" ) ) &&
+		!keyboard_check( ord( "E" ) ) &&
+		!keyboard_check( vk_up ) &&
+		!keyboard_check( vk_down ) &&
+		!keyboard_check( vk_left ) &&
+		!keyboard_check( vk_right ) )
+	{
+		// TODO: Put error sound and message in here
+		// PlaySoundText( ... )
+	}
 }
 
 // TODO: Make camera move sexily in code :)
