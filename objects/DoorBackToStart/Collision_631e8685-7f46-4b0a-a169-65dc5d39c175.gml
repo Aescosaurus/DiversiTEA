@@ -12,6 +12,6 @@ touchingPlayer = true
 
 if( keyboard_check( ord( "K" ) ) || keyboard_check( ord( "E" ) ) )
 {
-	audio_play_sound( EnterDoorSound,10,false )
+	PlaySoundText( EnterDoorSound,EnterDoorSoundTextSpr,x,y - 16 )
 	room_goto( TitleScreen )
 }

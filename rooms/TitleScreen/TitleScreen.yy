@@ -13,7 +13,8 @@
         "07b3e90e-f71a-4faa-a634-a135304fc838",
         "f5ff8b66-7eaf-4bee-88f7-71ff2a1283f8",
         "b9e79894-5a13-4e5a-b156-8a04ad0852c4",
-        "73c22951-a45f-4d2f-a4c1-672f7cfe5aaf"
+        "73c22951-a45f-4d2f-a4c1-672f7cfe5aaf",
+        "e29ead65-493e-4bb0-bff5-fada6d97752a"
     ],
     "IsDnD": false,
     "layers": [
@@ -106,7 +107,8 @@
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_76BBBEF1","id": "e6d435ca-9d72-4bc9-a8e3-117d0dff1a91","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "ce58c6c5-df93-46b5-a4f5-414e41c10501","userdefined_animFPS": false,"x": 240,"y": 176},
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_107AD7CB","id": "3dc5652c-0620-4aca-8a57-044e0997a390","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "ae6efcd5-380c-43bd-887c-71ad67903985","userdefined_animFPS": false,"x": 48,"y": 144},
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_3DBBA0AB","id": "91b9e97e-e68b-4b7b-abe7-daeb59433353","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "6b9b7bbc-d5a4-4bb6-9849-a812af6a46a5","userdefined_animFPS": false,"x": 96,"y": 144},
-{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_57CFEC48","id": "65090356-6588-4359-8c9b-02d0abee44ab","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "dea38854-4e23-46df-931a-3d9394d21b7d","userdefined_animFPS": false,"x": 384,"y": 144}
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_57CFEC48","id": "65090356-6588-4359-8c9b-02d0abee44ab","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "dea38854-4e23-46df-931a-3d9394d21b7d","userdefined_animFPS": false,"x": 336,"y": 144},
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_545C7D30","id": "9d068f16-c54f-4456-9132-cd2536d468a2","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "7f1f8418-1a82-476f-83db-fef8ef04d023","userdefined_animFPS": false,"x": 384,"y": 144}
             ],
             "depth": 300,
             "grid_x": 16,
@@ -145,7 +147,8 @@
 {"name": "inst_467D71EC","id": "208302bd-01a7-481d-b664-bed1ec1b03b4","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_467D71EC","objId": "872c5399-639e-4882-b7f7-bf24dec33726","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 48,"y": 160},
 {"name": "inst_79FD56E","id": "07b3e90e-f71a-4faa-a634-a135304fc838","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_79FD56E","objId": "e6e0d16c-4f74-4a99-b28a-a6ef3c669cd8","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 432,"y": 160},
 {"name": "inst_345EFFF8","id": "b9e79894-5a13-4e5a-b156-8a04ad0852c4","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_345EFFF8","objId": "777d90bd-5499-4db7-a1c7-7c2b593f375f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": 160},
-{"name": "inst_345A1018","id": "73c22951-a45f-4d2f-a4c1-672f7cfe5aaf","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_345A1018","objId": "2c847df5-b9c6-4634-b7a4-067cf6bd08e8","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 384,"y": 160}
+{"name": "inst_345A1018","id": "73c22951-a45f-4d2f-a4c1-672f7cfe5aaf","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_345A1018","objId": "2c847df5-b9c6-4634-b7a4-067cf6bd08e8","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 336,"y": 160},
+{"name": "inst_48D3DFFD","id": "e29ead65-493e-4bb0-bff5-fada6d97752a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_48D3DFFD","objId": "fe0e50e3-09b4-4ef1-8af2-2c4aa49ea3bb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 384,"y": 160}
             ],
             "layers": [
 
@@ -195,9 +198,9 @@
                     1,12,0,2147483648,0,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,0,0,0,0,0,6,1,
                     1,12,0,0,0,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,0,0,0,0,0,0,6,1,
                     1,12,0,0,0,0,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,0,0,0,0,0,0,0,0,6,1,
-                    1,3,4,4,4,4,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,4,4,4,4,2,1,
-                    1,1,1,1,1,1,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,1,1,1,1,1,1,
-                    1,1,1,1,1,1,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,1,1,1,1,1,1,
+                    1,3,4,4,4,4,13,0,0,0,0,0,0,0,0,0,0,0,0,0,8,4,4,4,4,4,4,4,2,1,
+                    1,1,1,1,1,1,12,0,0,0,0,0,0,0,0,0,0,0,0,0,6,1,1,1,1,1,1,1,1,1,
+                    1,1,1,1,1,1,3,4,4,4,4,4,4,4,4,4,4,4,4,4,2,1,1,1,1,1,1,1,1,1,
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
