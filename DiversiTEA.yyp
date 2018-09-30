@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "358f7b77-43d8-4053-9792-b97b203d0f72",
+            "Value": {
+                "id": "1168ad8c-cb9d-4376-9f88-fe9f53fd7461",
+                "resourcePath": "sprites\\PhysicalDisabilities1Spr\\PhysicalDisabilities1Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "37e351b7-34e5-45f7-8dfd-18ad47df59fe",
             "Value": {
                 "id": "da2994af-aff6-409b-b02b-fac6533bebe0",
@@ -380,6 +388,14 @@
                 "id": "50a201c1-250a-418b-83ca-5c8b0467d080",
                 "resourcePath": "views\\4026d2e7-fabe-474e-803e-82d6b36a1376.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "440f8e71-f332-4528-ab88-3356c5a544d0",
+            "Value": {
+                "id": "8bc0eed5-4c68-4bd6-839a-22bb51e3e469",
+                "resourcePath": "sprites\\PhysicalDisabilities0Spr\\PhysicalDisabilities0Spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1239,6 +1255,14 @@
             }
         },
         {
+            "Key": "ebc43204-6bc9-4961-aac6-097cb3c6963d",
+            "Value": {
+                "id": "b0d0992c-b7b3-40d7-9363-9a437f251641",
+                "resourcePath": "sprites\\PhysicalDisabilities3Spr\\PhysicalDisabilities3Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ed3b5f05-2fa7-48e9-affb-6cd47fc9c653",
             "Value": {
                 "id": "88de63f1-8fcf-4f22-9a02-2160e37b9135",
@@ -1284,6 +1308,14 @@
                 "id": "ddeb7834-c263-4fd1-ad92-ff89fa909e7e",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f866cf7c-b4d0-4c9c-97a0-cc869377084a",
+            "Value": {
+                "id": "56b5bfe2-8790-47c2-8954-6b39a6fade2e",
+                "resourcePath": "sprites\\PhysicalDisabilities2Spr\\PhysicalDisabilities2Spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

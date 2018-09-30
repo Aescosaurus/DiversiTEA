@@ -176,4 +176,14 @@ if( keyboard_check( vk_anykey ) )
 	}
 }
 
+// Window stuff, I'm not sure where else to put this so here is fine I guess.
+if( keyboard_check( vk_control ) && keyboard_check( ord( "F" ) ) )
+{
+	window_set_fullscreen( true )
+}
+else if( keyboard_check( vk_escape ) )
+{
+	window_set_fullscreen( false )
+}
+
 // TODO: Make camera move sexily in code :)
