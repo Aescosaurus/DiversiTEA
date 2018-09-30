@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "44ffd7ad-5c8c-483e-9afd-a5477405ac44",
+            "Value": {
+                "id": "10a098b4-05b6-4c93-9a33-81cdb94eef8a",
+                "resourcePath": "sprites\\WhooshSoundTextSpr\\WhooshSoundTextSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "451a265c-fcd4-4b52-9208-08affa9ae7c7",
             "Value": {
                 "id": "5815a50c-b900-40d8-add6-e56da2ef7a98",
@@ -1271,6 +1279,14 @@
             }
         },
         {
+            "Key": "efe6a520-914c-4a79-896a-3cb2f6f39563",
+            "Value": {
+                "id": "6ce01438-8d63-4498-8981-6f1cfddb2731",
+                "resourcePath": "sounds\\SplooshSound\\SplooshSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f0e00d22-24f7-46e2-8bde-c1fb5916bb32",
             "Value": {
                 "id": "e00c9e0b-a0cf-4635-ab7c-9c104a678d47",
@@ -1311,10 +1327,26 @@
             }
         },
         {
+            "Key": "f4d7e785-3df2-47db-863f-5b417716de5f",
+            "Value": {
+                "id": "e1118d09-6c50-4d0c-bd07-8b54c4f50f1f",
+                "resourcePath": "sounds\\WhooshSound\\WhooshSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f866cf7c-b4d0-4c9c-97a0-cc869377084a",
             "Value": {
                 "id": "56b5bfe2-8790-47c2-8954-6b39a6fade2e",
                 "resourcePath": "sprites\\PhysicalDisabilities2Spr\\PhysicalDisabilities2Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f90a218e-b34e-4e43-8fc4-ac983fb57abf",
+            "Value": {
+                "id": "58fbce50-a315-469b-930d-c88a2087ca22",
+                "resourcePath": "sprites\\SplooshSoundTextSpr\\SplooshSoundTextSpr.yy",
                 "resourceType": "GMSprite"
             }
         },

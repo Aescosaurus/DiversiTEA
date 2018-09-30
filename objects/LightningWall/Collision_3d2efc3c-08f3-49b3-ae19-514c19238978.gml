@@ -4,6 +4,6 @@
 
 other.xVel *= -1
 
-audio_play_sound( ZapSound,10,false )
+PlaySoundText( ZapSound,ZapSoundTextSpr,x,y - 16 )
 
 instance_destroy( id,false )

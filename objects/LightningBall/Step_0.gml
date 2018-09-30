@@ -12,11 +12,13 @@ if( tilemap_get_at_pixel( tileLayer,x + halfWidth * xDir + xMove,y ) <= 0 ) x +=
 else
 {
 	xVel *= -1
+	PlaySoundText( ZapSound,ZapSoundTextSpr,x,y - 16 )
 }
 if( tilemap_get_at_pixel( tileLayer,x,y + halfHeight * yDir + yMove ) <= 0 ) y += yMove
 else
 {
 	yVel *= -1
+	PlaySoundText( ZapSound,ZapSoundTextSpr,x,y - 16 )
 }
 
 rotTimer += dt

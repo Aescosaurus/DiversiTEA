@@ -3,6 +3,8 @@
 var diff = x - other.x
 x += ( diff / abs( diff ) ) * knockbackSpeed
 
+PlaySoundText( SplooshSound,SplooshSoundTextSpr,x,y - 16 )
+
 instance_destroy( other,false )
 
 --hp

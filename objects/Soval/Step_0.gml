@@ -23,6 +23,8 @@ if( activated )
 	{
 		shotTimer = 0.0
 		
+		PlaySoundText( WhooshSound,WhooshSoundTextSpr,x,y - 32 )
+		
 		if( !alternateShots )
 		{
 			alternateShots = true

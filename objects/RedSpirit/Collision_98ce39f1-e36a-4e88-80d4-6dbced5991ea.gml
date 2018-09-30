@@ -1,5 +1,7 @@
 /// @description destroy self and bullet
 
+PlaySoundText( SplooshSound,SplooshSoundTextSpr,x,y - 16 )
+
 instance_destroy( other,false )
 
 --hp
