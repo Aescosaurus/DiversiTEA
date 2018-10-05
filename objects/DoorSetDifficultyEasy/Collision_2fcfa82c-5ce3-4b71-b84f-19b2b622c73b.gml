@@ -10,7 +10,7 @@ tutMsg.y = other.y + yAdd
 
 touchingPlayer = true
 
-if( keyboard_check( ord( "K" ) ) || keyboard_check( ord( "E" ) ) )
+if( keyboard_check( ord( "O" ) ) || keyboard_check( ord( "E" ) ) )
 {
 	PlaySoundText( EnterDoorSound,EnterDoorSoundTextSpr,x,y - 16 )
 	global.GAME_DIFFICULTY = "E"

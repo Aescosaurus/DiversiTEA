@@ -18,6 +18,20 @@ footStepTimer = 0.0
 footStepDuration = 0.12 * 60.0
 leftFoot = false
 
+// controls
+moveUp1 = ord( "W" )
+moveUp2 = ord( "I" )
+moveDown1 = ord( "S" )
+moveDown2 = ord( "K" )
+moveLeft1 = ord( "A" )
+moveLeft2 = ord( "J" )
+moveRight1 = ord( "D" )
+moveRight2 = ord( "L" )
+shoot1 = ord( "Q" )
+shoot2 = ord( "U" )
+interact1 = ord( "E" )
+interact2 = ord( "O" )
+
 hp = GetHPBasedOnDifficulty( 9999,3,1 )
 
 sprite_index = global.PLAYER_SPRITE

@@ -7,16 +7,21 @@ if( activated )
 	var xDiff = player.x - x
 	var yDiff = -( player.y - y )
 	
-	var angle = arctan2( xDiff,yDiff ) - pi / 2.0
+	var len = sqrt( xDiff * xDiff + yDiff * yDiff )
 	
-	if( myAngle > angle ) myAngle -= rotSpeed * dt
-	else if( myAngle < angle ) myAngle += rotSpeed * dt
+	x += ( xDiff / len ) * moveSpeed * dt
+	y -= ( yDiff / len ) * moveSpeed * dt
 	
-	// if( keyboard_check( ord( "E" ) ) )
-	{
-		x += cos( myAngle ) * moveSpeed * dt
-		y += sin( myAngle ) * moveSpeed * dt
-	}
+	// var angle = arctan2( xDiff,yDiff ) - pi / 2.0
+	// 
+	// if( myAngle > angle ) myAngle -= rotSpeed * dt
+	// else if( myAngle < angle ) myAngle += rotSpeed * dt
+	// 
+	// // if( keyboard_check( ord( "E" ) ) )
+	// {
+	// 	x += cos( myAngle ) * moveSpeed * dt
+	// 	y += sin( myAngle ) * moveSpeed * dt
+	// }
 	
 	shotTimer += dt
 	if( shotTimer > refireTime )

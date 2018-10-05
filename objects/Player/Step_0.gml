@@ -10,24 +10,24 @@ var yMove = 0.0
 switch( gravDir )
 {
 case "U":
-	if( keyboard_check( ord( "S" ) ) || keyboard_check( vk_down ) ) jumping = true
-	if( keyboard_check( ord( "A" ) ) || keyboard_check( vk_left ) ) --xMove
-	if( keyboard_check( ord( "D" ) ) || keyboard_check( vk_right ) ) ++xMove
+	if( keyboard_check( moveDown1 ) || keyboard_check( moveDown2 ) ) jumping = true
+	if( keyboard_check( moveLeft1 ) || keyboard_check( moveLeft2 ) ) --xMove
+	if( keyboard_check( moveRight1 ) || keyboard_check( moveRight2 ) ) ++xMove
 	break
 case "D": // normal gravity
-	if( keyboard_check( ord( "W" ) ) || keyboard_check( vk_up ) ) jumping = true
-	if( keyboard_check( ord( "A" ) ) || keyboard_check( vk_left ) ) --xMove
-	if( keyboard_check( ord( "D" ) ) || keyboard_check( vk_right ) ) ++xMove
+	if( keyboard_check( moveUp1 ) || keyboard_check( moveUp2 ) ) jumping = true
+	if( keyboard_check( moveLeft1 ) || keyboard_check( moveLeft2 ) ) --xMove
+	if( keyboard_check( moveRight1 ) || keyboard_check( moveRight2 ) ) ++xMove
 	break
 case "L":
-	if( keyboard_check( ord( "D" ) ) || keyboard_check( vk_right ) ) jumping = true
-	if( keyboard_check( ord( "W" ) ) || keyboard_check( vk_up ) ) --yMove
-	if( keyboard_check( ord( "S" ) || keyboard_check( vk_down ) ) ) ++yMove
+	if( keyboard_check( moveRight1 ) || keyboard_check( moveRight2 ) ) jumping = true
+	if( keyboard_check( moveUp1 ) || keyboard_check( moveUp2 ) ) --yMove
+	if( keyboard_check( moveDown1 ) || keyboard_check( moveDown2 ) ) ++yMove
 	break
 case "R":
-	if( keyboard_check( ord( "A" ) ) || keyboard_check( vk_left ) ) jumping = true
-	if( keyboard_check( ord( "S" ) ) || keyboard_check( vk_down ) ) ++yMove
-	if( keyboard_check( ord( "W" ) ) || keyboard_check( vk_up ) ) --yMove
+	if( keyboard_check( moveLeft1 ) || keyboard_check( moveLeft2 ) ) jumping = true
+	if( keyboard_check( moveDown1 ) || keyboard_check( moveDown2 ) ) ++yMove
+	if( keyboard_check( moveUp1 ) || keyboard_check( moveDown2 ) ) --yMove
 	break
 default: show_debug_message( "You will never get this!" ) break
 }
@@ -194,7 +194,7 @@ if( landed )
 
 shotTimer += dt
 
-if( ( keyboard_check( ord( "J" ) ) || keyboard_check( ord( "Q" ) ) ) && ( shotTimer >= refireTime ) )
+if( ( keyboard_check( shoot1 ) || keyboard_check( shoot2 ) ) && ( shotTimer >= refireTime ) )
 {
 	shotTimer = 0.0
 	
@@ -224,18 +224,18 @@ if( ( keyboard_check( ord( "J" ) ) || keyboard_check( ord( "Q" ) ) ) && ( shotTi
 // Play error sound and give error message if key that isnt mapped is pressed
 if( keyboard_check( vk_anykey ) )
 {
-	if( !keyboard_check( ord( "W" ) ) &&
-		!keyboard_check( ord( "S" ) ) &&
-		!keyboard_check( ord( "A" ) ) &&
-		!keyboard_check( ord( "D" ) ) &&
-		!keyboard_check( ord( "J" ) ) &&
-		!keyboard_check( ord( "K" ) ) &&
-		!keyboard_check( ord( "Q" ) ) &&
-		!keyboard_check( ord( "E" ) ) &&
-		!keyboard_check( vk_up ) &&
-		!keyboard_check( vk_down ) &&
-		!keyboard_check( vk_left ) &&
-		!keyboard_check( vk_right ) )
+	if( !keyboard_check( moveUp1 ) &&
+		!keyboard_check( moveUp2 ) &&
+		!keyboard_check( moveDown1 ) &&
+		!keyboard_check( moveDown2 ) &&
+		!keyboard_check( moveLeft1 ) &&
+		!keyboard_check( moveLeft2 ) &&
+		!keyboard_check( moveRight1 ) &&
+		!keyboard_check( moveRight2 ) &&
+		!keyboard_check( shoot1 ) &&
+		!keyboard_check( shoot2 ) &&
+		!keyboard_check( interact1 ) &&
+		!keyboard_check( interact2 ) )
 	{
 		// TODO: Put error sound and message in here
 		// PlaySoundText( ... )
