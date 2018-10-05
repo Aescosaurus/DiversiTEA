@@ -14,6 +14,9 @@ halfHeight = sprite_get_height( sprite_index ) / 2.0
 gravDir = "D" // U/up, D/down, L/left, R/right
 landed = false
 textOffset = 16
+footStepTimer = 0.0
+footStepDuration = 0.12 * 60.0
+leftFoot = false
 
 hp = GetHPBasedOnDifficulty( 9999,3,1 )
 

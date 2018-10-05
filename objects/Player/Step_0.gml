@@ -55,6 +55,12 @@ yMove = yMove * moveSpeed * dt
 
 if( jumping )
 {
+	// The first second of your jump.
+	if( landed && !audio_is_playing( JumpSound ) )
+	{
+		PlaySoundText( JumpSound,JumpSoundTextSpr,x,y + 8 )
+	}
+	
 	landed = false
 	// if( gravDir == "D" ) yMove += jumpPower * dt
 	// else yMove -= jumpPower * dt
@@ -83,7 +89,11 @@ case "R": xMove += grav * dt; break
 var xDir = ( ( xMove != 0.0 ) ? xMove / abs( xMove ) : 0.0 )
 var yDir = ( ( yMove != 0.0 ) ? yMove / abs( yMove ) : 0.0 )
 
-if( tilemap_get_at_pixel( tileLayer,x + ( halfWidth * xDir ) + xMove,y ) <= 0 ) x += xMove
+if( tilemap_get_at_pixel( tileLayer,x + ( halfWidth * xDir ) + xMove,y ) <= 0 )
+{
+	x += xMove
+	if( gravDir == "L" || gravDir == "R" ) landed = false
+}
 else if( gravDir == "L" || gravDir == "R" )
 {
 	// Smaller means more accurate and also more laggy.
@@ -103,7 +113,11 @@ else
 {
 	if( !audio_is_playing( HitWallSound ) ) PlaySoundText( HitWallSound,HitWallSoundTextSpr,x,y - textOffset )
 }
-if( tilemap_get_at_pixel( tileLayer,x,y + ( halfHeight * yDir ) + yMove ) <= 0 ) y += yMove
+if( tilemap_get_at_pixel( tileLayer,x,y + ( halfHeight * yDir ) + yMove ) <= 0 )
+{
+	y += yMove
+	if( gravDir == "D" || gravDir == "U" ) landed = false
+}
 else if( gravDir == "D" || gravDir == "U" )
 {
 	// Smaller means more accurate and also more laggy.
@@ -122,6 +136,58 @@ else if( gravDir == "D" || gravDir == "U" )
 else
 {
 	if( !audio_is_playing( HitWallSound ) ) PlaySoundText( HitWallSound,HitWallSoundTextSpr,x,y - textOffset )
+}
+
+// Play footstep sounds.
+
+if( landed )
+{
+	footStepTimer += dt
+	switch( gravDir )
+	{
+	case "U": case "D":
+		if( xMove != 0.0 && footStepTimer > footStepDuration )
+		{
+			footStepTimer = 0.0
+			
+			if( leftFoot )
+			{
+				leftFoot = false
+				PlaySoundText( ( ( random_range( 0,10 ) > 5 )
+					? LeftFoot1Sound : LeftFoot2Sound ),
+					LeftFootSoundTextSpr,x - 8,y + 16 )
+			}
+			else
+			{
+				leftFoot = true
+				PlaySoundText( ( ( random_range( 0,10 ) > 5 )
+					? RightFoot1Sound : RightFoot2Sound ),
+					RightFootSoundTextSpr,x + 8,y + 16 )
+			}
+		}
+		break
+	case "L": case "R":
+		if( yMove != 0.0 && footStepTimer > footStepDuration )
+		{
+			footStepTimer = 0.0
+			
+			if( leftFoot )
+			{
+				leftFoot = false
+				PlaySoundText( ( ( random_range( 0,10 ) > 5 )
+					? LeftFoot1Sound : LeftFoot2Sound ),
+					LeftFootSoundTextSpr,x - 8,y + 16 )
+			}
+			else
+			{
+				leftFoot = true
+				PlaySoundText( ( ( random_range( 0,10 ) > 5 )
+					? RightFoot1Sound : RightFoot2Sound ),
+					RightFootSoundTextSpr,x + 8,y + 16 )
+			}
+		}
+		break
+	}
 }
 
 // Attacking stuff here
