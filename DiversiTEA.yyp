@@ -887,6 +887,14 @@
             }
         },
         {
+            "Key": "9bae9677-06f9-47e7-879a-19ac8f23156d",
+            "Value": {
+                "id": "07e8a74a-4546-49a5-81b9-9f2706dfe7ab",
+                "resourcePath": "objects\\DoorContinue\\DoorContinue.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9bccedff-e7e9-47ef-86ec-b96b3c11be75",
             "Value": {
                 "id": "52a2a5ac-bc05-455b-ad02-539e3dbf168b",

@@ -13,7 +13,7 @@ flashTimer = 0.0
 if( hp < 1 )
 {
 	TryGivingAchievement( AchieveKillBoss )
-	instance_create_layer( x,y,"MainLayer",DoorForward )
+	instance_create_layer( x,y,"MainLayer",DoorContinue )
 	for( var i = 0; i < instance_number( Fireball ); ++i )
 	{
 		instance_destroy( instance_find( Fireball,i ).id,false )
