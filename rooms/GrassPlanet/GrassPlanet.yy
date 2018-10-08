@@ -2,7 +2,7 @@
 {
     "name": "GrassPlanet",
     "id": "0be4ddb1-3129-4b42-92f3-47f1fcbf81f0",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

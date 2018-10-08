@@ -2,7 +2,7 @@
 {
     "name": "HelpRoom",
     "id": "a5eb4fe6-bb03-4217-a548-5714cfcaae4d",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
