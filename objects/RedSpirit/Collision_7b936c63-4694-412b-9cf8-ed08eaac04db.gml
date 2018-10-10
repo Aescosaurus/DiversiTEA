@@ -1,3 +1,3 @@
 /// @description Damage plyr
 
-DamagePlayer()
+DamagePlayer( x )

@@ -1,5 +1,5 @@
 /// @description damage player here
 
-DamagePlayer()
+DamagePlayer( x )
 
 instance_destroy( id,false )

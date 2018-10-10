@@ -8,6 +8,4 @@ text.x = argument2
 text.y = argument3
 text.sprite_index = argument1
 
-show_debug_message( global.SOUND_VOL )
-audio_sound_gain( argument0,global.SOUND_VOL,0.0 )
-audio_play_sound( argument0,10,false )
+PlaySound( argument0 )

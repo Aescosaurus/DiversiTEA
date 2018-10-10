@@ -2,6 +2,7 @@
 
 if( !playedSound )
 {
+	audio_sound_gain( HardVoiceSound,global.SOUND_VOL,0.0 )
 	audio_play_sound( HardVoiceSound,10,false )
 	playedSound = true
 }

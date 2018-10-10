@@ -10,5 +10,6 @@
 // 
 // touchingPlayer = true
 
+audio_sound_gain( EnterDoorSound,global.SOUND_VOL,0.0 )
 PlaySoundText( EnterDoorSound,EnterDoorSoundTextSpr,x,y - 16 )
 room_goto_next()

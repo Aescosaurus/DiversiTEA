@@ -2,6 +2,7 @@
 
 if( !playedSound )
 {
+	audio_sound_gain( MediumVoiceSound,global.SOUND_VOL,0.0 )
 	audio_play_sound( MediumVoiceSound,10,false )
 	playedSound = true
 }

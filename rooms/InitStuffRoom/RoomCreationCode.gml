@@ -14,7 +14,7 @@ global.GAME_SPEED = 1.0
 global.MUSIC_VOL = 1.0
 global.SOUND_VOL = 1.0
 
-audio_play_sound( bgMusic,100,true )
+PlaySound( bgMusic )
 
 // room_goto( TitleScreen )
 room_goto_next()

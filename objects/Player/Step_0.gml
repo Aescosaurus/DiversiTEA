@@ -221,6 +221,14 @@ if( ( keyboard_check( shoot1 ) || keyboard_check( shoot2 ) ) && ( shotTimer >= r
 	PlaySoundText( SlashSound,SlashSoundTextSpr,x + textOffset * image_xscale,y - textOffset * 1.5 )
 }
 
+if( keyboard_check( ord( "M" ) ) )
+{
+	global.MUSIC_VOL = 0
+	audio_sound_gain( bgMusic,global.MUSIC_VOL,0.0 )
+	// Any other music you add put here.
+}
+else if( keyboard_check( ord( "N" ) ) ) global.SOUND_VOL = 0
+
 // Play error sound and give error message if key that isnt mapped is pressed
 if( keyboard_check( vk_anykey ) )
 {

@@ -1,3 +1,3 @@
 /// @description Damage player
 
-DamagePlayer()
+DamagePlayer( x )
