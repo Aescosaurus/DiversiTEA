@@ -72,3 +72,9 @@ else if( GetLengthSq( x,y,player.x,player.y ) <= activationRangeSq )
 {
 	activated = true
 }
+
+if( !audio_is_playing( BuzzSound ) )
+{
+	audio_sound_pitch( BuzzSound,1.0 )
+	PlayPitchedSound( x,y,BuzzSound )
+}

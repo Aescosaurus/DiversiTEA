@@ -2,4 +2,6 @@
 
 TryGivingAchievement( AchieveGetCoin )
 
+PlaySound( BlingSound )
+
 instance_destroy( id,false )

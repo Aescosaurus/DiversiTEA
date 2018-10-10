@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "01eaf6ef-87ef-4a22-a129-307b317db035",
+            "Value": {
+                "id": "3b925afb-95be-4990-9133-c410e7f98398",
+                "resourcePath": "sounds\\BlingSound\\BlingSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "02482269-e5eb-4235-aa28-f914e690d6fa",
             "Value": {
                 "id": "18c2c2b5-a3d4-46a1-8280-ca5a350a8835",
@@ -227,6 +235,14 @@
             "Value": {
                 "id": "7b0fabca-9fd2-46e9-b562-12f2fbbac97d",
                 "resourcePath": "sounds\\ContinueVoiceSound\\ContinueVoiceSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "1f26a65a-fc37-49e1-b67e-b531dbe2c27b",
+            "Value": {
+                "id": "860888bd-c93f-4832-9082-9e3d41e65d98",
+                "resourcePath": "sounds\\BuzzSound\\BuzzSound.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1031,6 +1047,14 @@
             }
         },
         {
+            "Key": "a5920389-8331-470d-90ae-f7906008266f",
+            "Value": {
+                "id": "1c0d0556-0138-4ae4-a932-0899887fee49",
+                "resourcePath": "scripts\\PlaySoundPitch\\PlaySoundPitch.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a5d959ac-9ae0-4865-b2e2-5e8a80482462",
             "Value": {
                 "id": "d941f868-b148-46ff-ad46-fd6c064438e1",
@@ -1204,6 +1228,22 @@
                 "id": "2b2a5773-537b-4a45-aec3-22310b74ed19",
                 "resourcePath": "sprites\\FactoryGroundSpr\\FactoryGroundSpr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c718549e-e43d-4b57-b7a5-6b1a50c99c1a",
+            "Value": {
+                "id": "5ebc92b7-05bc-4bd6-9c82-946640446d00",
+                "resourcePath": "rooms\\IcePlanet\\IcePlanet.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c7933367-b37e-419d-951f-6a32c8d6e5b8",
+            "Value": {
+                "id": "666e96f1-a4c7-4df8-aceb-aa9d709f44e5",
+                "resourcePath": "tilesets\\IceTiles\\IceTiles.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -1407,6 +1447,14 @@
             }
         },
         {
+            "Key": "e609c38c-0ac8-459c-9864-e2920d53cb81",
+            "Value": {
+                "id": "18afecd0-b772-4afa-92c9-05d02e0ec55e",
+                "resourcePath": "sprites\\IceGroundSpr\\IceGroundSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e60b93b5-37b2-45c2-b7aa-0c29cacaa71c",
             "Value": {
                 "id": "ee90e089-7068-479f-a137-e72b9073e1cd",
@@ -1575,6 +1623,14 @@
             }
         },
         {
+            "Key": "fa0db747-4359-4e33-9322-36d5c6b2f707",
+            "Value": {
+                "id": "0f65fabb-52e9-4beb-8fce-e0cb0e611816",
+                "resourcePath": "scripts\\PlayPitchedSound\\PlayPitchedSound.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fa1966cc-2853-4fa4-b067-1011d6488fb9",
             "Value": {
                 "id": "8bd45435-5a49-4543-b91a-14083e2dd410",
@@ -1614,7 +1670,9 @@
         "75b39124-7899-4960-8799-355c77743708",
         "34f1163c-8c3c-4536-9950-1d2918c5f911",
         "6a5d30c8-0503-4ffd-ac8c-35da0ea160b6",
-        "6d9a165b-05ac-4d6f-b9f5-3048ac08edbd"
+        "6d9a165b-05ac-4d6f-b9f5-3048ac08edbd",
+        "a5920389-8331-470d-90ae-f7906008266f",
+        "fa0db747-4359-4e33-9322-36d5c6b2f707"
     ],
     "tutorial": ""
 }

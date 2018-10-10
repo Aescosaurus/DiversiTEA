@@ -221,13 +221,19 @@ if( ( keyboard_check( shoot1 ) || keyboard_check( shoot2 ) ) && ( shotTimer >= r
 	PlaySoundText( SlashSound,SlashSoundTextSpr,x + textOffset * image_xscale,y - textOffset * 1.5 )
 }
 
-if( keyboard_check( ord( "M" ) ) )
+if( keyboard_check_pressed( ord( "M" ) ) )
 {
-	global.MUSIC_VOL = 0
-	audio_sound_gain( bgMusic,global.MUSIC_VOL,0.0 )
+	audio_master_gain( 0.0 )
+	audio_stop_all()
 	// Any other music you add put here.
 }
-else if( keyboard_check( ord( "N" ) ) ) global.SOUND_VOL = 0
+else if( keyboard_check_pressed( ord( "N" ) ) )
+{
+	audio_master_gain( 1.0 )
+	audio_play_sound( bgMusic,10,false )
+}
+
+if( keyboard_check_pressed( vk_enter ) ) room_goto_next()
 
 // Play error sound and give error message if key that isnt mapped is pressed
 if( keyboard_check( vk_anykey ) )
