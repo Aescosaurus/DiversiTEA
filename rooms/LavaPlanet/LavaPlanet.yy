@@ -2,7 +2,7 @@
 {
     "name": "LavaPlanet",
     "id": "b98b5391-81c2-4912-aadb-bc53ee76aca7",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

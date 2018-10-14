@@ -2,7 +2,7 @@
 {
     "name": "IcePlanet",
     "id": "c718549e-e43d-4b57-b7a5-6b1a50c99c1a",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "2677b4a0-1310-4f39-9516-102c44073b75",
+            "Value": {
+                "id": "2f858782-5f94-48a2-b9b7-8cbb57e0bd18",
+                "resourcePath": "sprites\\Storyline3DiagramSpr\\Storyline3DiagramSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2747cc5a-9cf8-454c-971a-da2449146265",
             "Value": {
                 "id": "eb7754fd-d300-4274-b72d-c972f3172774",
@@ -410,7 +418,7 @@
             "Key": "37e351b7-34e5-45f7-8dfd-18ad47df59fe",
             "Value": {
                 "id": "da2994af-aff6-409b-b02b-fac6533bebe0",
-                "resourcePath": "sprites\\TeaMsg4Spr\\TeaMsg4Spr.yy",
+                "resourcePath": "sprites\\TeaMsg5Spr\\TeaMsg5Spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "53d2b6ed-00ac-4bcd-a41a-c9d33d1687de",
+            "Value": {
+                "id": "caff058f-f295-4c51-a7f4-a4bd7b097d22",
+                "resourcePath": "sprites\\Storyline5DiagramSpr\\Storyline5DiagramSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "54287643-46ef-47b1-ad81-0543f0acac7e",
             "Value": {
                 "id": "5d6ebcf7-dbf1-4bda-95ed-efc7a76d002d",
@@ -539,6 +555,14 @@
             "Value": {
                 "id": "486ef60e-514b-4a02-9838-2274b54c18e1",
                 "resourcePath": "sprites\\MediumButtonSpr\\MediumButtonSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "56c9baa0-6ad2-4816-8b7e-81964cd1ddd2",
+            "Value": {
+                "id": "1bd281a8-840d-4008-9ded-4b54d74e7baf",
+                "resourcePath": "sprites\\LearningDisabilitiesSpr\\LearningDisabilitiesSpr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -588,6 +612,14 @@
                 "id": "b6da1407-d00b-45c9-b5f5-12543d204478",
                 "resourcePath": "objects\\Fireball\\Fireball.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5c792ffd-3755-4627-9b10-318aabf03218",
+            "Value": {
+                "id": "2d5bd1d6-2943-4b9a-80ae-af50e3a4eee5",
+                "resourcePath": "rooms\\Storyline5\\Storyline5.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -899,6 +931,14 @@
             "Value": {
                 "id": "8670d6df-fe4b-45e2-8eb6-690b8ce0735e",
                 "resourcePath": "sprites\\SoundVolButtonSpr\\SoundVolButtonSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "868b54ea-e19c-4db6-8fcc-e6355c01c74b",
+            "Value": {
+                "id": "6e1666a9-f9ec-4973-80d0-ed8369d28446",
+                "resourcePath": "sprites\\Storyline1DiagramSpr\\Storyline1DiagramSpr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1215,6 +1255,14 @@
             }
         },
         {
+            "Key": "bb9f2675-591c-490c-bdf7-143980671094",
+            "Value": {
+                "id": "cf29e743-a335-43e5-a2fe-81d36e9de7ca",
+                "resourcePath": "sprites\\Storyline2DiagramSpr\\Storyline2DiagramSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c310ff67-2c52-4bc6-adfb-e05863418bf9",
             "Value": {
                 "id": "e03c7b9d-117c-47b4-a005-570e2850c9dd",
@@ -1495,6 +1543,14 @@
             }
         },
         {
+            "Key": "e8a7d1d3-b735-447d-a0af-bda144967caf",
+            "Value": {
+                "id": "7dae12ec-c803-4093-8f00-626f329806c3",
+                "resourcePath": "sprites\\Storyline4DiagramSpr\\Storyline4DiagramSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e8d791bc-b015-42bf-b23e-5abd5ee71186",
             "Value": {
                 "id": "84746df5-963b-422a-89dc-d4589d7764c7",
@@ -1515,6 +1571,14 @@
             "Value": {
                 "id": "88de63f1-8fcf-4f22-9a02-2160e37b9135",
                 "resourcePath": "sprites\\HelpMenuSpr\\HelpMenuSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ed6ac323-cf31-4c68-b1fd-f820061ae511",
+            "Value": {
+                "id": "a10fd74d-4407-447e-a795-fe4cace3a492",
+                "resourcePath": "sprites\\TeaMsg4Spr\\TeaMsg4Spr.yy",
                 "resourceType": "GMSprite"
             }
         },

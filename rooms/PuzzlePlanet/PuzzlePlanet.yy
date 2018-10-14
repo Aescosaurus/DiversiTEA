@@ -2,7 +2,7 @@
 {
     "name": "PuzzlePlanet",
     "id": "02c46878-63c2-450e-873d-e748bbdf138e",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

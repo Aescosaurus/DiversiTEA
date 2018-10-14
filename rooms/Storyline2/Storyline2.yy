@@ -2,7 +2,7 @@
 {
     "name": "Storyline2",
     "id": "3ce5df54-42c8-496e-832d-64c5d12e1e6e",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -98,7 +98,8 @@
             "id": "f2099e0f-dda8-41c0-91b6-a56b4492b552",
             "assets": [
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_189ADC4D","id": "1f48edde-e6e1-4fa7-b434-736b207910b7","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "19ff1780-81e5-4125-9a95-8ddff393a403","userdefined_animFPS": false,"x": 208,"y": 168},
-{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_3E24AD7D","id": "f06dd11c-e964-4421-a74d-2043a7cab717","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "d7f228c0-1a02-46ab-9a02-f64358ec1c2f","userdefined_animFPS": false,"x": 208,"y": 144}
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_3E24AD7D","id": "f06dd11c-e964-4421-a74d-2043a7cab717","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "d7f228c0-1a02-46ab-9a02-f64358ec1c2f","userdefined_animFPS": false,"x": 208,"y": 144},
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_213A906","id": "589ac138-5fd1-4558-ab51-87d4efdb22d0","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "bb9f2675-591c-490c-bdf7-143980671094","userdefined_animFPS": false,"x": 192,"y": 112}
             ],
             "depth": 300,
             "grid_x": 16,
